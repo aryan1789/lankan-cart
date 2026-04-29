@@ -1,12 +1,34 @@
 import { useSearchParams, Link } from 'react-router-dom';
 import { Search } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { searchProducts } from '../data/products';
 import ProductCard from '../components/ProductCard';
+import type { Product } from '../types';
 
 export default function SearchResults() {
   const [params] = useSearchParams();
   const query = params.get('q') || '';
-  const results = query ? searchProducts(query) : [];
+  const [results, setResults] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    let active = true;
+    const load = async () => {
+      if (!query) {
+        setResults([]);
+        return;
+      }
+      setLoading(true);
+      const data = await searchProducts(query);
+      if (!active) return;
+      setResults(data);
+      setLoading(false);
+    };
+    load();
+    return () => {
+      active = false;
+    };
+  }, [query]);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-6 pb-24 md:pb-8">
@@ -20,6 +42,10 @@ export default function SearchResults() {
         <p className="text-sm text-gray-500 mb-6">
           {results.length} {results.length === 1 ? 'product' : 'products'} found
         </p>
+      )}
+
+      {loading && query && (
+        <div className="text-sm text-gray-500">Searching...</div>
       )}
 
       {results.length === 0 && query && (

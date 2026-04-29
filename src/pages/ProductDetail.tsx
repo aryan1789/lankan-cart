@@ -1,18 +1,51 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Star, ShoppingCart, Plus, Minus, MapPin, Package, ChevronRight } from 'lucide-react';
-import { getProductById, products, categories } from '../data/products';
+import { getProductById, getProductsByCategory, getCategoryById } from '../data/products';
 import { useCart } from '../context/CartContext';
 import ProductCard from '../components/ProductCard';
+import type { Category, Product } from '../types';
 
 export default function ProductDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { addToCart, items, updateQuantity } = useCart();
-  const product = getProductById(id || '');
   const [qty, setQty] = useState(1);
+  const [product, setProduct] = useState<Product | null>(null);
+  const [category, setCategory] = useState<Category | null>(null);
+  const [related, setRelated] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  if (!product) {
+  useEffect(() => {
+    let active = true;
+    const load = async () => {
+      if (!id) return;
+      setLoading(true);
+      const productData = await getProductById(id);
+      if (!active) return;
+      setProduct(productData);
+      if (!productData) {
+        setCategory(null);
+        setRelated([]);
+        setLoading(false);
+        return;
+      }
+      const [cat, relatedProducts] = await Promise.all([
+        getCategoryById(productData.category),
+        getProductsByCategory(productData.category),
+      ]);
+      if (!active) return;
+      setCategory(cat);
+      setRelated(relatedProducts.filter(p => p.id !== productData.id).slice(0, 4));
+      setLoading(false);
+    };
+    load();
+    return () => {
+      active = false;
+    };
+  }, [id]);
+
+  if (!loading && !product) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-16 text-center">
         <h2 className="text-lg font-semibold text-gray-700 mb-2">Product not found</h2>
@@ -21,9 +54,15 @@ export default function ProductDetail() {
     );
   }
 
+  if (!product) {
+    return (
+      <div className="max-w-6xl mx-auto px-4 py-16 text-center text-sm text-gray-500">
+        Loading product...
+      </div>
+    );
+  }
+
   const cartItem = items.find(i => i.product.id === product.id);
-  const category = categories.find(c => c.id === product.category);
-  const related = products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
 
   return (
     <div className="pb-28 md:pb-10">

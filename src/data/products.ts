@@ -1,358 +1,215 @@
 import type { Product, Category } from '../types';
+import { supabase } from '../utils/supabase';
 
-export const categories: Category[] = [
-  { id: 'rice-grains', name: 'Rice & Grains', icon: '🌾', color: '#92400E', bgColor: '#FEF3C7', count: 12 },
-  { id: 'spices', name: 'Spices & Herbs', icon: '🌶️', color: '#991B1B', bgColor: '#FEE2E2', count: 18 },
-  { id: 'vegetables', name: 'Vegetables', icon: '🥦', color: '#065F46', bgColor: '#D1FAE5', count: 24 },
-  { id: 'fruits', name: 'Fruits', icon: '🍌', color: '#92400E', bgColor: '#FDE68A', count: 15 },
-  { id: 'snacks', name: 'Snacks', icon: '🥜', color: '#7C3AED', bgColor: '#EDE9FE', count: 10 },
-  { id: 'beverages', name: 'Beverages', icon: '☕', color: '#1E40AF', bgColor: '#DBEAFE', count: 8 },
-  { id: 'sauces', name: 'Sauces & Pastes', icon: '🫙', color: '#B45309', bgColor: '#FEF3C7', count: 14 },
-  { id: 'dairy', name: 'Dairy & Eggs', icon: '🥛', color: '#0F766E', bgColor: '#CCFBF1', count: 9 },
+type CategoryRow = {
+  external_id?: string | number | null;
+  category_refid?: string | number | null;
+  id?: string | number | null;
+  name?: string | null;
+  category_name?: string | null;
+  description?: string | null;
+  image_url?: string | null;
+  sort_order?: number | null;
+  alternative_title?: string | null;
+  parent_ref_id?: number | null;
+};
+
+type ProductRow = {
+  external_id?: string | number | null;
+  id?: string | number | null;
+  name?: string | null;
+  description?: string | null;
+  price?: number | string | null;
+  original_price?: number | string | null;
+  image_url?: string | null;
+  image?: string | null;
+  category_external_id?: string | number | null;
+  category_name?: string | null;
+  unit?: string | null;
+  in_stock?: boolean | null;
+  active?: boolean | null;
+  current_stock?: number | null;
+  tax_rate?: number | null;
+  rating?: number | null;
+  review_count?: number | null;
+  tags?: string | null;
+  origin?: string | null;
+  weight?: string | null;
+};
+
+const CATEGORY_COLORS = [
+  { color: '#92400E', bgColor: '#FEF3C7' },
+  { color: '#991B1B', bgColor: '#FEE2E2' },
+  { color: '#065F46', bgColor: '#D1FAE5' },
+  { color: '#1E40AF', bgColor: '#DBEAFE' },
+  { color: '#7C3AED', bgColor: '#EDE9FE' },
+  { color: '#0F766E', bgColor: '#CCFBF1' },
+  { color: '#B45309', bgColor: '#FEF3C7' },
+  { color: '#4B5563', bgColor: '#F3F4F6' },
 ];
 
-export const products: Product[] = [
-  // Rice & Grains
-  {
-    id: 'p1',
-    name: 'Samba Rice',
-    description: 'Traditional Sri Lankan short-grain samba rice, perfect for rice and curry. Grown in the fertile paddy fields of Sri Lanka. Has a distinct nutty flavour and slightly sticky texture when cooked.',
-    price: 12.99,
-    originalPrice: 14.99,
-    image: 'https://images.unsplash.com/photo-1536304993881-ff86e0c9b785?w=400&h=400&fit=crop',
-    category: 'rice-grains',
-    unit: '5kg bag',
-    inStock: true,
-    rating: 4.8,
-    reviewCount: 124,
-    tags: ['staple', 'traditional', 'gluten-free'],
-    origin: 'Kurunegala, Sri Lanka',
-    weight: '5kg',
-  },
-  {
-    id: 'p2',
-    name: 'Keeri Samba Rice',
-    description: 'Premium Keeri Samba — the finest quality Sri Lankan rice with a fragrant aroma. Ideal for special occasions and everyday meals.',
-    price: 14.99,
-    originalPrice: 16.99,
-    image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=400&fit=crop',
-    category: 'rice-grains',
-    unit: '5kg bag',
-    inStock: true,
-    rating: 4.9,
-    reviewCount: 89,
-    tags: ['premium', 'fragrant'],
-    origin: 'Polonnaruwa, Sri Lanka',
-    weight: '5kg',
-  },
-  {
-    id: 'p3',
-    name: 'Red Raw Rice',
-    description: 'Nutritious unpolished red rice rich in fibre and minerals. A staple in Sri Lankan homes, especially in the south and north.',
-    price: 11.99,
-    image: 'https://images.unsplash.com/photo-1600857544200-b2f468e06692?w=400&h=400&fit=crop',
-    category: 'rice-grains',
-    unit: '5kg bag',
-    inStock: true,
-    rating: 4.6,
-    reviewCount: 56,
-    tags: ['healthy', 'unpolished', 'high-fibre'],
-    origin: 'Ampara, Sri Lanka',
-    weight: '5kg',
-  },
-  // Spices
-  {
-    id: 'p4',
-    name: 'Ceylon Cinnamon Sticks',
-    description: 'Authentic Ceylon cinnamon (true cinnamon) from Sri Lanka. Mild, sweet and complex flavour — the world\'s finest cinnamon. Perfect for curries, desserts and teas.',
-    price: 5.99,
-    originalPrice: 7.49,
-    image: 'https://images.unsplash.com/photo-1599789199567-37e223b6f93b?w=400&h=400&fit=crop',
-    category: 'spices',
-    unit: '100g pack',
-    inStock: true,
-    rating: 5.0,
-    reviewCount: 210,
-    tags: ['authentic', 'export-quality', 'award-winning'],
-    origin: 'Matale, Sri Lanka',
-    weight: '100g',
-  },
-  {
-    id: 'p5',
-    name: 'Sri Lankan Curry Powder',
-    description: 'Roasted and blended curry powder using traditional Sri Lankan recipe. A blend of coriander, cumin, turmeric, chilli, black pepper and more.',
-    price: 4.99,
-    image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=400&fit=crop',
-    category: 'spices',
-    unit: '200g pack',
-    inStock: true,
-    rating: 4.7,
-    reviewCount: 178,
-    tags: ['blended', 'roasted', 'traditional'],
-    origin: 'Colombo, Sri Lanka',
-    weight: '200g',
-  },
-  {
-    id: 'p6',
-    name: 'Turmeric Powder',
-    description: 'Pure ground turmeric with vibrant colour and earthy flavour. Essential in Sri Lankan cooking and known for anti-inflammatory properties.',
-    price: 3.50,
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=400&h=400&fit=crop',
-    category: 'spices',
-    unit: '100g pack',
-    inStock: true,
-    rating: 4.5,
-    reviewCount: 95,
-    tags: ['pure', 'healthy', 'anti-inflammatory'],
-    origin: 'Kandy, Sri Lanka',
-    weight: '100g',
-  },
-  {
-    id: 'p7',
-    name: 'Dried Red Chilli',
-    description: 'Sun-dried whole red chillies from Sri Lanka. Adds heat and depth to curries, sambols and pickles.',
-    price: 4.50,
-    originalPrice: 5.50,
-    image: 'https://images.unsplash.com/photo-1574670782303-a6a27edff78e?w=400&h=400&fit=crop',
-    category: 'spices',
-    unit: '100g pack',
-    inStock: true,
-    rating: 4.6,
-    reviewCount: 72,
-    tags: ['hot', 'dried', 'whole'],
-    origin: 'Jaffna, Sri Lanka',
-    weight: '100g',
-  },
-  // Vegetables
-  {
-    id: 'p8',
-    name: 'Drumstick (Murunga)',
-    description: 'Fresh drumstick pods, a beloved ingredient in Sri Lankan cooking. Used in curries, soups and as a nutritious vegetable. Rich in vitamins and minerals.',
-    price: 3.99,
-    image: 'https://images.unsplash.com/photo-1567306295427-94503f8300d7?w=400&h=400&fit=crop',
-    category: 'vegetables',
-    unit: 'per bunch',
-    inStock: true,
-    rating: 4.4,
-    reviewCount: 43,
-    tags: ['fresh', 'nutritious', 'local'],
-    origin: 'Anuradhapura, Sri Lanka',
-  },
-  {
-    id: 'p9',
-    name: 'Green Jackfruit',
-    description: 'Young green jackfruit (Polos) — a versatile vegetable that makes a delicious curry. A Sri Lankan favourite, also popular as a meat substitute.',
-    price: 6.99,
-    image: 'https://images.unsplash.com/photo-1605701975822-64f0c3b4f1e4?w=400&h=400&fit=crop',
-    category: 'vegetables',
-    unit: '1kg',
-    inStock: true,
-    rating: 4.7,
-    reviewCount: 61,
-    tags: ['local', 'seasonal', 'curry-ingredient'],
-    origin: 'Gampaha, Sri Lanka',
-    weight: '1kg',
-  },
-  {
-    id: 'p10',
-    name: 'Bitter Gourd (Karawila)',
-    description: 'Fresh bitter gourd, a staple in Sri Lankan cuisine. Made into delicious stir-fries and curries. Known for its medicinal properties in Ayurvedic medicine.',
-    price: 3.99,
-    image: 'https://images.unsplash.com/photo-1590059390888-bb5dd91e9c0b?w=400&h=400&fit=crop',
-    category: 'vegetables',
-    unit: '500g',
-    inStock: true,
-    rating: 4.2,
-    reviewCount: 38,
-    tags: ['medicinal', 'fresh', 'ayurvedic'],
-    origin: 'Matara, Sri Lanka',
-    weight: '500g',
-  },
-  // Fruits
-  {
-    id: 'p11',
-    name: 'King Coconut (Thambili)',
-    description: 'Fresh king coconut — Sri Lanka\'s golden health drink. Rich in electrolytes and naturally sweet. A refreshing tropical treat.',
-    price: 3.50,
-    image: 'https://images.unsplash.com/photo-1596367407372-96cb88503db6?w=400&h=400&fit=crop',
-    category: 'fruits',
-    unit: 'each',
-    inStock: true,
-    rating: 4.9,
-    reviewCount: 187,
-    tags: ['fresh', 'hydrating', 'tropical'],
-    origin: 'Western Province, Sri Lanka',
-  },
-  {
-    id: 'p12',
-    name: 'Ripe Mango',
-    description: 'Sweet and juicy Sri Lankan mangoes. Varieties include Willard, Karuthakolomban and more. Perfect to eat fresh or use in desserts.',
-    price: 7.99,
-    originalPrice: 9.99,
-    image: 'https://images.unsplash.com/photo-1553279768-865429fa0078?w=400&h=400&fit=crop',
-    category: 'fruits',
-    unit: '1kg',
-    inStock: true,
-    rating: 4.8,
-    reviewCount: 134,
-    tags: ['seasonal', 'tropical', 'sweet'],
-    origin: 'Jaffna, Sri Lanka',
-    weight: '1kg',
-  },
-  {
-    id: 'p13',
-    name: 'Rambutan',
-    description: 'Fresh rambutan — a tropical hairy fruit with sweet, juicy flesh. A beloved snack in Sri Lanka, available fresh in season.',
-    price: 5.99,
-    image: 'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?w=400&h=400&fit=crop',
-    category: 'fruits',
-    unit: '500g',
-    inStock: true,
-    rating: 4.5,
-    reviewCount: 67,
-    tags: ['tropical', 'sweet', 'seasonal'],
-    origin: 'Ratnapura, Sri Lanka',
-    weight: '500g',
-  },
-  // Snacks
-  {
-    id: 'p14',
-    name: 'Murukku',
-    description: 'Crunchy and savoury spiral-shaped snack made from rice flour and spices. A classic Sri Lankan and South Asian tea-time snack.',
-    price: 3.99,
-    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=400&fit=crop',
-    category: 'snacks',
-    unit: '200g pack',
-    inStock: true,
-    rating: 4.6,
-    reviewCount: 89,
-    tags: ['crispy', 'savoury', 'tea-time'],
-    weight: '200g',
-  },
-  {
-    id: 'p15',
-    name: 'Kokis',
-    description: 'Traditional Sri Lankan deep-fried snack made from rice flour and coconut milk. Shaped using a special mould and fried until golden.',
-    price: 4.50,
-    image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&h=400&fit=crop',
-    category: 'snacks',
-    unit: '150g pack',
-    inStock: true,
-    rating: 4.8,
-    reviewCount: 102,
-    tags: ['traditional', 'festive', 'crispy'],
-    weight: '150g',
-  },
-  // Beverages
-  {
-    id: 'p16',
-    name: 'Ceylon Black Tea',
-    description: 'Premium Ceylon black tea from the highlands of Sri Lanka. Full-bodied with a bright, clean taste. The finest tea in the world.',
-    price: 9.99,
-    originalPrice: 12.99,
-    image: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=400&fit=crop',
-    category: 'beverages',
-    unit: '250g pack',
-    inStock: true,
-    rating: 4.9,
-    reviewCount: 256,
-    tags: ['premium', 'highland', 'export-quality'],
-    origin: 'Nuwara Eliya, Sri Lanka',
-    weight: '250g',
-  },
-  {
-    id: 'p17',
-    name: 'Coconut Oil (Virgin)',
-    description: 'Cold-pressed virgin coconut oil extracted from fresh Sri Lankan coconuts. Used for cooking, beauty care and as a health supplement.',
-    price: 15.99,
-    image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&h=400&fit=crop',
-    category: 'beverages',
-    unit: '500ml bottle',
-    inStock: true,
-    rating: 4.7,
-    reviewCount: 143,
-    tags: ['virgin', 'cold-pressed', 'organic'],
-    origin: 'Kurunegala, Sri Lanka',
-    weight: '500ml',
-  },
-  // Sauces & Pastes
-  {
-    id: 'p18',
-    name: 'Pol Sambol Mix',
-    description: 'Ready-to-use pol sambol seasoning mix. Just add fresh coconut and lime for the authentic Sri Lankan condiment that goes with everything.',
-    price: 3.50,
-    image: 'https://images.unsplash.com/photo-1567529692333-de9fd6772897?w=400&h=400&fit=crop',
-    category: 'sauces',
-    unit: '100g pack',
-    inStock: true,
-    rating: 4.5,
-    reviewCount: 76,
-    tags: ['condiment', 'ready-mix', 'authentic'],
-    weight: '100g',
-  },
-  {
-    id: 'p19',
-    name: 'Maldive Fish',
-    description: 'Authentic dried Maldive fish pieces — an essential umami ingredient in Sri Lankan cooking. Used in pol sambol, curries and rice dishes.',
-    price: 7.99,
-    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=400&fit=crop',
-    category: 'sauces',
-    unit: '200g pack',
-    inStock: true,
-    rating: 4.6,
-    reviewCount: 54,
-    tags: ['umami', 'dried', 'authentic'],
-    origin: 'Negombo, Sri Lanka',
-    weight: '200g',
-  },
-  // Dairy
-  {
-    id: 'p20',
-    name: 'Buffalo Curd (Meekiri)',
-    description: 'Creamy Sri Lankan buffalo milk curd, set in traditional clay pots. Rich and tangy — the perfect dessert served with kithul treacle.',
-    price: 6.99,
-    image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&h=400&fit=crop',
-    category: 'dairy',
-    unit: '400g pot',
-    inStock: true,
-    rating: 4.9,
-    reviewCount: 198,
-    tags: ['traditional', 'clay-pot', 'fresh'],
-    origin: 'Mahiyangana, Sri Lanka',
-    weight: '400g',
-  },
-  {
-    id: 'p21',
-    name: 'Kithul Treacle',
-    description: 'Pure kithul palm treacle tapped from kithul trees in the hill country. Rich, dark and intensely sweet — pairs perfectly with buffalo curd.',
-    price: 10.99,
-    originalPrice: 13.99,
-    image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=400&fit=crop',
-    category: 'sauces',
-    unit: '500ml bottle',
-    inStock: true,
-    rating: 4.8,
-    reviewCount: 112,
-    tags: ['pure', 'traditional', 'natural-sweetener'],
-    origin: 'Kandy, Sri Lanka',
-    weight: '500ml',
-  },
-];
+const CATEGORY_ICON_MAP: Record<string, string> = {
+  rice: '🍚',
+  vegetable: '🥦',
+  fruit: '🍌',
+  snacks: '🥜',
+  beverage: '🥤',
+  tea: '☕',
+  coffee: '☕',
+  spice: '🌶️',
+  coconut: '🥥',
+  sambol: '🫙',
+  pickle: '🥒',
+  chutney: '🫙',
+  sauces: '🍲',
+  dairy: '🥛',
+  bakery: '🥖',
+  noodles: '🍜',
+  grains: '🌾',
+  organic: '🌿',
+  ayurvedic: '🌿',
+  fish: '🐟',
+  dry: '🐟',
+  canned: '🥫',
+  honey: '🍯',
+  syrup: '🍯',
+  personal: '🧴',
+  baby: '🍼',
+};
 
-export const getFeaturedProducts = (): Product[] =>
-  products.filter(p => p.rating >= 4.7).slice(0, 6);
+const getCategoryIcon = (name: string) => {
+  const key = name.toLowerCase();
+  const match = Object.keys(CATEGORY_ICON_MAP).find((token) => key.includes(token));
+  return match ? CATEGORY_ICON_MAP[match] : '🛒';
+};
 
-export const getProductsByCategory = (categoryId: string): Product[] =>
-  products.filter(p => p.category === categoryId);
+const mapCategory = (row: CategoryRow, index: number): Category => {
+  const palette = CATEGORY_COLORS[index % CATEGORY_COLORS.length];
+  return {
+    id: String(row.external_id ?? row.category_refid ?? row.id ?? ''),
+    name: row.name ?? row.category_name ?? 'Category',
+    icon: getCategoryIcon(row.name ?? row.category_name ?? ''),
+    color: palette.color,
+    bgColor: palette.bgColor,
+    count: 0,
+  };
+};
 
-export const getProductById = (id: string): Product | undefined =>
-  products.find(p => p.id === id);
+const mapProduct = (row: ProductRow): Product => ({
+  id: String(row.external_id ?? row.id ?? ''),
+  name: row.name ?? '',
+  description: row.description ?? '',
+  price: Number(row.price ?? 0),
+  originalPrice: row.original_price ? Number(row.original_price) : undefined,
+  image: row.image_url ?? row.image ?? '',
+  category: String(row.category_external_id ?? row.category_name ?? ''),
+  unit: row.unit ?? '',
+  inStock: row.in_stock ?? (Number(row.current_stock ?? 0) > 0),
+  rating: Number(row.rating ?? 4.5),
+  reviewCount: Number(row.review_count ?? 0),
+  tags: row.tags ? String(row.tags).split(',').map((t: string) => t.trim()) : [],
+  origin: row.origin ?? undefined,
+  weight: row.weight ?? undefined,
+});
 
-export const searchProducts = (query: string): Product[] => {
-  const q = query.toLowerCase();
-  return products.filter(p =>
-    p.name.toLowerCase().includes(q) ||
-    p.description.toLowerCase().includes(q) ||
-    p.tags.some(t => t.toLowerCase().includes(q))
-  );
+export const withCategoryCounts = (categories: Category[], products: Product[]) => {
+  const counts = new Map<string, number>();
+  products.forEach((product) => {
+    const key = product.category;
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  });
+
+  return categories.map((category) => ({
+    ...category,
+    count: counts.get(category.id) ?? 0,
+  }));
+};
+
+export const getCategories = async (): Promise<Category[]> => {
+  const { data, error } = await supabase
+    .from('categories')
+    .select('external_id,name,description,image_url,sort_order,alternative_title,parent_ref_id')
+    .order('sort_order', { ascending: true });
+
+  if (error) {
+    console.error('Failed to load categories', error.message);
+    return [];
+  }
+
+  return (data as CategoryRow[] | null ?? []).map(mapCategory);
+};
+
+export const getCategoryById = async (id: string): Promise<Category | null> => {
+  const { data, error } = await supabase
+    .from('categories')
+    .select('external_id,name,description,image_url,sort_order,alternative_title,parent_ref_id')
+    .eq('external_id', id)
+    .single();
+
+  if (error) {
+    return null;
+  }
+
+  return mapCategory(data as CategoryRow, 0);
+};
+
+export const getProducts = async (): Promise<Product[]> => {
+  const { data, error } = await supabase
+    .from('products')
+    .select('external_id,name,description,price,image_url,category_external_id,category_name,unit,in_stock,active,current_stock,tax_rate')
+    .eq('active', true);
+
+  if (error) {
+    console.error('Failed to load products', error.message);
+    return [];
+  }
+
+  return (data as ProductRow[] | null ?? []).map(mapProduct);
+};
+
+export const getProductsByCategory = async (categoryId: string): Promise<Product[]> => {
+  const { data, error } = await supabase
+    .from('products')
+    .select('external_id,name,description,price,image_url,category_external_id,category_name,unit,in_stock,active,current_stock,tax_rate')
+    .eq('category_external_id', categoryId)
+    .eq('active', true);
+
+  if (error) {
+    console.error('Failed to load category products', error.message);
+    return [];
+  }
+
+  return (data as ProductRow[] | null ?? []).map(mapProduct);
+};
+
+export const getProductById = async (id: string): Promise<Product | null> => {
+  const { data, error } = await supabase
+    .from('products')
+    .select('external_id,name,description,price,image_url,category_external_id,category_name,unit,in_stock,active,current_stock,tax_rate')
+    .eq('external_id', id)
+    .single();
+
+  if (error || !data) {
+    return null;
+  }
+
+  return mapProduct(data as ProductRow);
+};
+
+export const searchProducts = async (query: string): Promise<Product[]> => {
+  const q = query.trim();
+  if (!q) return [];
+
+  const { data, error } = await supabase
+    .from('products')
+    .select('external_id,name,description,price,image_url,category_external_id,category_name,unit,in_stock,active,current_stock,tax_rate')
+    .eq('active', true)
+    .or(`name.ilike.%${q}%,description.ilike.%${q}%`);
+
+  if (error) {
+    console.error('Search failed', error.message);
+    return [];
+  }
+
+  return (data as ProductRow[] | null ?? []).map(mapProduct);
 };

@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ShoppingCart, Search, User, LogOut, X, ChevronDown } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 import { searchProducts } from '../data/products';
+import type { Product } from '../types';
 
 export default function Navbar() {
   const { user, logout } = useAuth();
@@ -12,7 +13,9 @@ export default function Navbar() {
   const [query, setQuery] = useState('');
   const [showSearch, setShowSearch] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
-  const [suggestions, setSuggestions] = useState<ReturnType<typeof searchProducts>>([]);
+  const [suggestions, setSuggestions] = useState<Product[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const searchTimer = useRef<number | null>(null);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -26,8 +29,32 @@ export default function Navbar() {
 
   const handleQueryChange = (val: string) => {
     setQuery(val);
-    setSuggestions(val.length > 1 ? searchProducts(val).slice(0, 5) : []);
   };
+
+  useEffect(() => {
+    if (searchTimer.current) {
+      window.clearTimeout(searchTimer.current);
+    }
+
+    if (query.trim().length <= 1) {
+      setSuggestions([]);
+      setIsSearching(false);
+      return;
+    }
+
+    searchTimer.current = window.setTimeout(async () => {
+      setIsSearching(true);
+      const results = await searchProducts(query.trim());
+      setSuggestions(results.slice(0, 5));
+      setIsSearching(false);
+    }, 250);
+
+    return () => {
+      if (searchTimer.current) {
+        window.clearTimeout(searchTimer.current);
+      }
+    };
+  }, [query]);
 
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
@@ -53,8 +80,11 @@ export default function Navbar() {
                 />
               </div>
             </form>
-            {suggestions.length > 0 && (
+            {(suggestions.length > 0 || isSearching) && (
               <div className="absolute top-full left-0 right-0 mt-1 bg-white shadow-lg rounded-md border border-gray-200 overflow-hidden z-50">
+                {isSearching && (
+                  <div className="px-3 py-2.5 text-sm text-gray-500">Searching...</div>
+                )}
                 {suggestions.map(p => (
                   <button
                     key={p.id}
@@ -157,8 +187,11 @@ export default function Navbar() {
                 </button>
               </div>
             </form>
-            {suggestions.length > 0 && (
+            {(suggestions.length > 0 || isSearching) && (
               <div className="absolute left-0 right-0 top-full mt-0 bg-white shadow-lg rounded-md border border-gray-200 overflow-hidden z-50">
+                {isSearching && (
+                  <div className="px-3 py-2.5 text-sm text-gray-500">Searching...</div>
+                )}
                 {suggestions.map(p => (
                   <button
                     key={p.id}

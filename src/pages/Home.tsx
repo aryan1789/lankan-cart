@@ -1,13 +1,35 @@
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
-import { categories, getFeaturedProducts, products } from '../data/products';
+import { useEffect, useMemo, useState } from 'react';
+import { getCategories, getProducts, withCategoryCounts } from '../data/products';
+import type { Category, Product } from '../types';
 import { useAuth } from '../context/AuthContext';
 import ProductCard from '../components/ProductCard';
 
 export default function Home() {
   const { user } = useAuth();
-  const featured = getFeaturedProducts();
-  const deals = products.filter(p => p.originalPrice).slice(0, 4);
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let active = true;
+    const load = async () => {
+      setLoading(true);
+      const [cats, prods] = await Promise.all([getCategories(), getProducts()]);
+      if (!active) return;
+      setCategories(withCategoryCounts(cats, prods));
+      setProducts(prods);
+      setLoading(false);
+    };
+    load();
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const featured = useMemo(() => products.slice(0, 6), [products]);
+  const deals = useMemo(() => products.slice(0, 4), [products]);
 
   return (
     <div className="pb-24 md:pb-10">
@@ -52,6 +74,9 @@ export default function Home() {
             All categories <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
+        {loading && (
+          <div className="text-sm text-gray-500">Loading categories...</div>
+        )}
         <div className="grid grid-cols-4 md:grid-cols-8 gap-2">
           {categories.map(cat => (
             <Link
@@ -79,6 +104,9 @@ export default function Home() {
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-base font-semibold text-gray-900">On special</h2>
           </div>
+          {loading && (
+            <div className="text-sm text-gray-500">Loading deals...</div>
+          )}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {deals.map(p => (
               <ProductCard key={p.id} product={p} />
@@ -95,6 +123,9 @@ export default function Home() {
             View all <ChevronRight className="w-4 h-4" />
           </Link>
         </div>
+        {loading && (
+          <div className="text-sm text-gray-500">Loading products...</div>
+        )}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           {featured.map(p => (
             <ProductCard key={p.id} product={p} />

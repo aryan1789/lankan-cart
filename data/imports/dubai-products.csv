@@ -1,0 +1,672 @@
+external_id,name,description,price,image_url,category_external_id,category_name,unit,in_stock,active,current_stock,tax_name,tax_rate
+4363038,"Clay Cooking Pot 7"" Inch With Lid",,21.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/1ae87ccd-66ec-47a1-ab33-cd912851ef76.png,323967,Kitchen Items,Pieces,true,true,10,VAT,5
+4363039,"Clay Cooking Pot 8"" Inch With Lid",,23.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9b3ce6b5-76ee-47d4-9f37-90b094d9ef38.png,323967,Kitchen Items,Pieces,true,true,10,VAT,5
+4363040,"Clay Cooking Pot 9"" Inch With Lid",,25.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/23cacf2f-2b4a-447e-8369-4afb467ba19e.png,323967,Kitchen Items,Pieces,true,true,10,VAT,5
+4363041,"Clay Cooking Pot 10"" Inch With Lid",,27.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/4093331b-e533-4ef7-ac38-1fb6f4ac7b2f.png,323967,Kitchen Items,Pieces,true,true,10,VAT,5
+4363042,"Clay Cooking Pot 11"" Inch With Lid",,29.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/71c108ed-0e36-4d02-a531-48e9352d60dd.png,323967,Kitchen Items,Pieces,true,true,10,VAT,5
+4363043,"Clay Cooking Pot 12"" Inch With Lid",,31.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/6e7aa8b6-2d80-416a-801c-04bc159f594c.png,323967,Kitchen Items,Pieces,true,true,10,VAT,5
+4363045,"Clay Cooking Pot 14"" Inch With Lid",,44.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a0e84947-eea0-45bd-8ee5-91a5307b8b25.png,323967,Kitchen Items,Pieces,true,true,10,VAT,5
+4408770,Coca Cola Can 245ml,,2.5,,313474,Beverages,Pieces,true,true,10,VAT @ 5%,5
+4408771,Fanta Can 245ml,,2.5,,313474,Beverages,Pieces,true,true,10,VAT @ 5%,5
+4408772,Sprite Can 245ml,,2.5,,313474,Beverages,Pieces,true,true,10,VAT @ 5%,5
+4408773,Sticks Natural Potato ,,1.99,,323975,Snacks Items,Pieces,true,true,10,VAT @ 5%,5
+4408774,Nice Day Cappuccino,,14.99,,323978,Tea & Coffee,Pieces,true,true,10,VAT,5
+4408775,Vitamin C 240ml,,3.99,,323960,Ayurvedic,Pieces,true,true,10,VAT,5
+4408776,Lois Candy Bar with Coconut Nougat,,4.99,,323928,Chocolate,Pieces,true,true,10,VAT,5
+4408777,Lois Candy Bar with Creamy Nougat,,4.99,,323928,Chocolate,Pieces,true,true,10,VAT,5
+4408778,Lois Candy Bar with Strawberry Nougat,,4.99,,323928,Chocolate,Pieces,true,true,10,VAT,5
+4408779,Cadburry Dairy Milk,,5.99,,323928,Chocolate,Pieces,true,true,10,VAT,5
+4408780,Pistachio Kunafa Dubai Chocolate 200g,,7.99,,323928,Chocolate,Pieces,true,true,10,VAT,5
+4408781,Dubai Pistachio Kunafa Chocolate 100g,,4.99,,323928,Chocolate,Pieces,true,true,10,VAT,5
+4408782,Kunafa Dubai Chocolate 20g,,1.99,,323928,Chocolate,Pieces,true,true,10,VAT,5
+4408783,Lokkas Chocolate Swiss Roll,,22.5,,323961,Bakery Items,Pieces,true,true,10,VAT,5
+4408784,Le Supreme Mushroom Pieces & Stems,,2.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4408785,Le Supreme Mushroom Whole,,4.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4408786,Le Supreme Evaporated Milk 410g,,3.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4408787,Le Supreme Coconut Cream 400ml,,4.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4408788,Le Supreme Coconut Milk 400ml,,3.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4408789,Le Supreme Pineapple Slices in Light Syrup,,5.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4408790,Le Supreme Sweet Corn in Brine,,2.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4408791,Le Supreme Light Meat Tuna Chunks in Sunflower Oil,,5.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4408792,Le Supreme Light Meat Tuna in Vegetable Oil,,4.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4408793,Le Supreme Light Meat Tuna in Sunflower Oil,,3.25,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4408794,Le Supreme Young Baby Corn in Brine,,5.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4408795,Le Supreme Apricot Halves,,7.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4408796,Le Supreme Peach Halves,,8.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4408797,Le Supreme Pear Halves,,7.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4408798,Le Supreme Fruit Cocktail,,7.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4513565,Maliban Chocolate Cream Bsct 100g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2ba9fc10-3bdd-425b-80b7-24c00e4c67c1.jpg,323975,Snacks Items,,true,true,20,VAT @ 5%,5
+4513568,Munchee Chocolate Cream Bsct 100g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/cf0255b9-a5be-41b7-b908-a8dda8ddff41.png,323975,Snacks Items,,false,true,0,VAT,5
+4521882,"Vesak Lantern 8"" Inch",,13.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/769615a4-cda3-491e-9324-28b94916ed1e.png,372727,Vesak Items,,true,true,20,VAT,5
+4521885,"Vesak Lantern 6"" Inch",,9.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a199386c-989f-44ae-83b5-df50b8feb379.png,372727,Vesak Items,,true,true,20,VAT,5
+4521890,Meti Pahan,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/02f0bf51-6700-4e3e-8745-89bc1e487e5f.png,372727,Vesak Items,,true,true,30,VAT @ 5%,5
+4521894,Vesak Card,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9c02aed2-66d9-4639-b1da-41860d49a44f.png,372727,Vesak Items,,true,true,20,VAT,5
+4521897,"Vesak Lantern 10"" Inch",,15.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/363595d7-5290-4140-ae71-67e2084a1b58.png,372727,Vesak Items,,true,true,10,VAT,5
+4521901,Vesak Lantern - Tissue,,11.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/91abd2bd-5e99-4623-9172-a0c13f41dfee.png,372727,Vesak Items,,true,true,10,VAT,5
+4521909,Preethi Vesak Bucket - 5 Pcs Pack,,14.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/be22f9cc-9d5e-4bce-b600-9e6578a9a5ed.png,372727,Vesak Items,,true,true,20,VAT,5
+4521930,Vesak Lantern Paper - Saw Kola,,0.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a2da74c6-da86-468d-be2a-a2bb84245949.png,372727,Vesak Items,,true,true,300,VAT @ 5%,5
+4522138,Buddhist Flag Small,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/59ec5296-d4e5-410c-b69b-b1dd34fb1d3a.png,372727,Vesak Items,,true,true,10,VAT,5
+4522145,"Budu Pilima - Small - 5"" Inch",,27.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a5e597e3-f658-428f-83a8-559589b315bd.png,372727,Vesak Items,,true,true,10,VAT @ 5%,5
+4522146,"Budu Pilima - Small - 3"" Inch",,25.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0b8825c0-22c0-4750-abe6-4345ac0afee4.png,372727,Vesak Items,,true,true,10,VAT @ 5%,5
+4522148,"Budu Pilima - Small - 14"" Inch",,53.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/477dc872-2b32-42e7-bf36-06ca5ac9e01c.png,372727,Vesak Items,,true,true,10,VAT @ 5%,5
+4144442,Gastro Chocolate ice cream -1 Litre - Naturals,Gastro Chocolate ice cream -1 Litre - Naturals,49,,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144450,Tiramisu Ice cream - 1 Litre - Naturals,Tiramisu Ice cream - 1 Litre - Naturals,54,,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144451,Black Pepper (Crushed) - 100g - Naturals,Black Pepper (Crushed) - 100g - Naturals,8.5,,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144456,Meat Curry Powder - 100g - Naturals,Meat Curry Powder - 100g - Naturals,6,,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144462,Hathmaluwa (7 veggies) curry  mix  - 100g - Naturals,Hathmaluwa (7 veggies) curry  mix  - 100g - Naturals,6.25,,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144464,Cinnamon Powder  - 100g - Naturals,Cinnamon Powder  - 100g - Naturals,7.75,https://cdn.tmbill.com/backoffice/product-image/1768570626084.jpeg,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144466,Polos Curry powder  - 100g - Naturals,Polos Curry powder  - 100g - Naturals,6.5,https://cdn.tmbill.com/backoffice/product-image/1768571277587.jpeg,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144467,All purpose Seasonig Mix  - 100g - Naturals,All purpose Seasonig Mix  - 100g - Naturals,8,,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144469,Chicken Curry Seasoning Mix - 100g - Naturals,Chicken Curry Seasoning Mix,6.75,,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144471,Cassava Chips Hot & Spicy - 100g,Cassava Chips Hot & Spicy - 100g - Naturals,7,,323975,Snacks Items,Pieces,true,true,10,VAT,5
+4144487,Kithul Jaggery - 250g - Naturals,Kithul Jaggery - 250g - Naturals,23,,323977,Syrups & Honey,Pieces,true,true,10,VAT,5
+4144488,Turmeric Powder  - 100g - Naturals,Turmeric Powder  - 100g - Naturals,8,https://cdn.tmbill.com/backoffice/product-image/1768734478626.png,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144489,Chilli Powder  - 100g - Naturals,Chilli Powder  - 100g - Naturals,4,,313722,Flour & Grains,Pieces,true,true,10,VAT @ 5%,5
+4144491,Cumin  - 100g - Naturals,Cumin  - 100g - Naturals,5.5,https://cdn.tmbill.com/backoffice/product-image/1768734064877.png,313722,Flour & Grains,Pieces,true,true,10,VAT,5
+4144498,Curd & Treacle Ice cream - 125ml - Naturals,Curd & Treacle Ice cream - 125ml - Naturals,8.5,https://cdn.tmbill.com/backoffice/product-image/1768553194381.png,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144499,Mango Passion Ice cream  - 125ml - Naturals,Mango Passion Ice cream  - 125ml - Naturals,8.5,https://cdn.tmbill.com/backoffice/product-image/1768553219894.png,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144500,Woodapple Ice cream  - 125ml - Naturals,Woodapple Ice cream  - 125ml - Naturals,8.5,https://cdn.tmbill.com/backoffice/product-image/1768553242798.png,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144501,Ceylon Spice Tea Ice cream  - 125ml - Naturals,Ceylon Spice Tea Ice cream  - 125ml - Naturals,8.5,https://cdn.tmbill.com/backoffice/product-image/1768553279215.png,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144502,Soursop Sorbet  - 125ml - Naturals,Soursop Sorbet  - 125ml - Naturals,8.5,https://cdn.tmbill.com/backoffice/product-image/1768553319661.png,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144507,Gastro Chocolate ice cream - 125ml - Naturals,Gastro Chocolate ice cream - 125ml - Naturals,8.5,https://cdn.tmbill.com/backoffice/product-image/1768553490870.png,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144508,Gastro Mango Sorbet - 125ml - Naturals,Gastro Mango Sorbet - 125ml - Naturals,8.5,https://cdn.tmbill.com/backoffice/product-image/1768553531346.png,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144511,Arabic Coffee Ice cream - 125ml - Naturals,Arabic Coffee Ice cream - 125ml - Naturals,12,https://cdn.tmbill.com/backoffice/product-image/1768465685178.png,336670,Ice Cream & Desserts,Pieces,true,true,10,VAT,5
+4144517,Chocalate Roll - Naturals,Chocalate Roll - Naturals,23.4,,323961,Bakery Items,Pieces,true,true,10,VAT,5
+4149321,Lankan Taste Kalpiti Mora Karawala - 200g,Lankan Taste Mora Karawala - 200g,14,https://cdn.tmbill.com/backoffice/product-image/1768733392665.jpeg,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149322,Lankan Taste Kalpiti Dry Sprats 100g,Lankan Taste Dry Sprats 100g,5.99,https://cdn.tmbill.com/backoffice/product-image/1768557731929.jpeg,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149324,Lankan Taste Kalpiti Maldiv Fish - 100g,Lankan Taste Maldiv Fish - 100g,10.5,https://cdn.tmbill.com/backoffice/product-image/1768568921091.jpeg,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149325,Lankan Taste Kalpiti Thalapat - 200g,Lankan Taste Thalapat - 200g,13.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149326,Lankan Taste Kalpiti Keeramin - 200g,Lankan Taste Keeramin - 200g,9.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149328,Lankan Taste Kalpiti Madu - 200g,Lankan Taste Madu - 200g,11.99,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4149329,Lankan Taste Kalpiti Dried Linna 200g,Lankan Taste Dried Linna 200g,9.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149330,Lankan Taste Kalpiti Dried Tuna 100g,Lankan Taste Dried Tuna 100g,7.5,https://cdn.tmbill.com/backoffice/product-image/1768557693340.jpeg,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149331,Lankan Taste Kalpiti Dried Katta 200g,Lankan Taste Dried Katta 200g,9.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149333,Lankan Taste Kalpiti Dried Oysters 200g,Lankan Taste Dried Oysters 200g,9.5,https://cdn.tmbill.com/backoffice/product-image/1768557669498.jpeg,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149334,Lankan Taste Kalpiti Mora Boku 200g,Lankan Taste Mora Boku 200g,9.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b357a406-b70b-473f-8121-6686b3462334.png,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4149336,Lankan Taste Kalpiti Dried Tuna 200g,Lankan Taste Dried Tuna 200g,9.5,https://cdn.tmbill.com/backoffice/product-image/1768557647114.jpeg,323964,Dry & Canned Foods,Pieces,true,true,10,VAT @ 5%,5
+4149339,Lankan Taste Kalpiti Dried Kenda 200g,Lankan Taste Dried Kenda 200g,10.5,,323964,Dry & Canned Foods,Pieces,true,true,10,VAT,5
+4154987,Pawatta Thalsookiri Syrup 200ml,Pawatta Thalsookiri Syrup 200ml,20,,323960,Ayurvedic,Pieces,true,true,10,VAT,5
+4154988,Punkalas,Punkalas,25,,323969,Patriotic Items,Pieces,true,true,10,VAT,5
+4154991,Organic Mango Drink 250ml,Organic Mango Drink 250ml,9.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924420676.png,313474,Beverages,Pieces,true,true,10,VAT @ 5%,5
+4154992,Organic Pineapple Drink 250ml,Organic Pineapple Drink 250ml,9.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770925147599.png,313474,Beverages,Pieces,true,true,10,VAT,5
+4155529,Cbl Hathawariya Porridge 50g,Cbl Hathawariya Porridge 50g,2.99,,323960,Ayurvedic,Pieces,true,true,10,VAT,5
+4155536,Nutrigreenes Heenbovitiya Herbal Drink 40g,Nutrigreenes Heenbovitiya Herbal Drink 40g,15,,323960,Ayurvedic,Pieces,true,true,10,VAT,5
+4156188,Pawatta Thalsookiri Syrup 100ml,Pawatta Thalsookiri Syrup 100ml,16,https://cdn.tmbill.com/backoffice/product-image/1768744564694.png,323960,Ayurvedic,Pieces,true,true,10,VAT @ 5%,5
+4156191,Siddhalepa Asamodagam 350ml,Siddhalepa Asamodagam 350ml,5.5,,323960,Ayurvedic,Pieces,true,true,10,VAT,5
+4163450,Kelani Lanka - Soya Meat Curry Flavour,Kelani Lanka - Soya Meat Curry Flavour,3.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770922938242.png,313486,Soya Meat,Pieces,true,true,10,VAT,5
+4163478,Delmage Soya Meat Motton,Delmage Soya Meat Motton,3.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923998904.png,313486,Soya Meat,Pieces,true,true,10,VAT,5
+4163479,Delmage Soya Meat Cuttlefish,Delmage Soya Meat Cuttle Fish,3.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923969051.png,313486,Soya Meat,Pieces,true,true,10,VAT,5
+4283562,Ambul Dodan (ඇඹුල් දොඩම්) - 500g,Pre Order,14.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/d0ea34fc-ec04-406c-bd87-91dd96541e42.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333487,Alpenlibe Toffee,,0.25,,323975,Snacks Items,Pieces,true,true,199,VAT @ 5%,5
+4283550,Ambun Banana ( ඇම්බුං කෙසෙල් ) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0214bed5-5f89-45bd-9b1a-34c5105d3bdb.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4144457,Ambul Thiyal Mix  - 100g - Naturals,,8.5,,313722,Flour & Grains,Pieces,true,true,1,VAT @ 5%,5
+4144446,Arabic Coffee Ice cream -1 Litre - Naturals,,59,,336670,Ice Cream & Desserts,Pieces,true,true,3,VAT @ 5%,5
+4283556,Ceylon Olive (වෙරළු ) - 100g,Pre Order,2.9,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/52a5decd-4d03-44f7-9911-1eb0ee4bd527.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4244008,Ceylon Olive (වෙරළු) - 50g,Pre Order,1.45,,313464,Fruit,Kg,true,true,100,VAT @ 5%,5
+4333488,Aluminum Thachchi - Small,,22,,323967,Kitchen Items,Pieces,true,true,1,VAT @ 5%,5
+4333491,Baby Cheramy Baby Soap 90g,,5.25,,313478,Personal Care,Pieces,true,true,3,VAT @ 5%,5
+4333492,Baby Cheramy Baby Soap 90g,,5.25,,313478,Personal Care,Pieces,true,true,30,VAT @ 5%,5
+4144514,Baklava Raspberry Rosewater - 125ml - Naturals,,15.25,https://cdn.tmbill.com/backoffice/product-image/1768553002257.png,336670,Ice Cream & Desserts,Pieces,true,true,6,VAT @ 5%,5
+4283566,Green Papaya - 250g,Pre Order,3.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/5b552ae4-161a-4b87-8840-02d1a49668ad.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4144448,Baklava Raspberry Rosewater -1 Litre - Naturals,,59,,336670,Ice Cream & Desserts,Pieces,true,true,1,VAT @ 5%,5
+4283544,Guava (පේර) -250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/6bdad450-508d-4094-a45d-7b45206dff91.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4144474,Cassava Chips Original 100g,,9.25,,323975,Snacks Items,Pieces,true,true,5,VAT @ 5%,5
+4244003,Kolikuttu (කොලිකුට්ටු කෙසෙල් )- 500g,Pre Order,12.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/e37a0435-bf84-4427-aa17-5b1805167dfe.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4163868,Cassava Chips Original NOAS 40g,,6.25,,323975,Snacks Items,Pieces,true,true,6,VAT @ 5%,5
+4283558,Mangosteen (මැංගුස්) - 500g,Pre Order,19,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/bf119698-96eb-4061-b728-1e9bf7b35f93.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4163869,Cassava Chips Sea Salt NOAS 40g,,6.25,,323975,Snacks Items,Pieces,true,true,7,VAT @ 5%,5
+4244004,Passion Fruit (පැෂන් පළතුරු) - 250g,Pre Order,6.25,,313464,Fruit,Kg,true,true,100,VAT @ 5%,5
+4283553,Passion Fruit (වැල් දොඩම්) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8fc5d27c-2736-48c3-a7a2-7e7091d13103.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4283568,Pineapple ( අන්නාසි ) - 500g,Pre Order,13.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/44847998-e5d2-474d-8663-1c46fa4a5475.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333496,Centar fresh,,0.25,,323975,Snacks Items,Pieces,true,true,7,VAT @ 5%,5
+4283552,Rambutan ( රඹුටන් ) - 250g,Pre Order,6.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/91309762-cf69-4a8b-96b5-832090370107.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333497,Center fruit,,0.25,,323975,Snacks Items,Pieces,true,true,11,VAT @ 5%,5
+4283567,Red Papaya - 250g,Pre Order,4.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/4b378c2c-1e06-4103-8f76-4953bd2d536a.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333498,Center shock,,0.25,,323975,Snacks Items,Pieces,true,true,181,VAT @ 5%,5
+4283549,Sour Banana (ඇඹුල් කෙසෙල්) - 250g,Pre Order,5.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3c08eccf-0cad-40eb-9253-c7936c26c195.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333499,Ceylon House Black Pepper Powder 100g,,6.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9b1ad0d8-0812-43be-b557-ec12ba3199cf.png,323973,Seeds & Spices,Pieces,true,true,17,VAT @ 5%,5
+4283547,Soursop(කටු අනෝදා) - 250g,Pre Order,7.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/53686a09-b03b-4d72-9cfd-7fdc29ae9d64.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4283546,Starfruit (කාමරංගා) - 250g,Pre Order,6,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7b88d5c5-c7ff-47fd-854e-2423aabb4f3f.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333501,Ceylon House Chilli Crushed 100g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0619bdf9-9dac-493c-9d5c-87c40d96f1e2.png,323973,Seeds & Spices,Pieces,true,true,12,VAT @ 5%,5
+4244005,Sugar Banana (සීනි කෙසෙල්) - 500g,Pre Order,12.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/5430c1e5-8af3-4745-970f-ddc92651ec91.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333502,Ceylon House Cinnemon Stick 25g,,3.6,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2dfe5dcf-8670-4809-b546-a0dd03704725.png,323973,Seeds & Spices,Pieces,true,true,19,VAT @ 5%,5
+4283559,Sweet Orange(පැණි දොඩම්) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/142f5b49-40ac-4837-916d-2d0c3d6b578e.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333503,Ceylon House Goraka 100g,,2.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/af562f6d-b7bc-4c55-ac87-0c03e55e6328.png,323973,Seeds & Spices,Pieces,true,true,22,VAT @ 5%,5
+4142098,Ceylon House Red Raw Rice 1Kg,,8.5,https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9566667b-e8ae-4e8e-ba74-db1836d38cf6.webp,313485,Rice,Pieces,true,true,38,VAT @ 5%,5
+4283565,Thambili (තැඹිලි),Pre Order,9,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/06079a4f-f5db-4857-acdd-bfa28feaf943.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4142096,Ceylon House Red Raw Rice 5Kg,,35.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/c354c831-d122-4245-91e0-736234904721.png,313485,Rice,Pieces,true,true,14,VAT @ 5%,5
+4283557,Wood Apple (දිවුල්) - 500g,Pre Order,12.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2900c31c-4388-4ddd-9deb-20f0e1f32989.png,313464,Fruit,Kg,false,true,0,VAT @ 5%,5
+4333504,Ceylon House Supiri Keeri Samba 1Kg,,9.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/afb8e13f-dba0-4608-bac6-8588fd4d07b6.png,313485,Rice,Pieces,true,true,18,VAT @ 5%,5
+4138861,Cassava leaves (මඤ්ඤොක්කා කොළ) - 50g,Pre Order,1.3,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0dc3e2ef-c8a3-4dc1-8e8b-0a277fb5d2ee.png,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4333505,Ceylon House Supiri Keeri Samba 5Kg,,41.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/73d664b0-a6ca-4f04-9c16-4a44f71a109e.png,313485,Rice,Pieces,true,true,4,VAT @ 5%,5
+4138862,Crepe Ginger - Thebu Kola - (තේඹු කොළ දළු) - 50g,Pre Order,1.4,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b0abb420-51a9-4ac3-a489-0fdd808f8f00.png,323968,Leafy Vegetables,Kg,true,true,100,VAT,5
+4333506,Ceylon House Supiri Samba 5Kg,,41.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/1991e2d6-793e-44aa-ae04-ab4cd31c8668.png,313485,Rice,Pieces,true,true,49,VAT @ 5%,5
+4138866,Curry Leaves (කරපිංචා)  - 30g,Pre Order,2.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7add14da-c5b1-41bf-b194-ebccfadc2b32.png,323968,Leafy Vegetables,Kg,true,true,100,VAT,5
+4142097,Ceylon House White Raw Rice 1Kg,,8.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a92ce5b1-0786-43f2-88fb-6c6d3b3d048f.png,313485,Rice,Pieces,true,true,34,VAT @ 5%,5
+4138847,Gotukola (ගොටුකොළ) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/495b5da6-4eea-4c4b-b09f-a5f7c2d3ccae.png,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4144437,Ceylon Spice Tea Ice cream -1 Litre - Naturals,,61.75,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4138830,Kenda Leaves (කැන්ද කොළ) - 100g,Pre Order,2.72,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/02a4c948-593e-4fb0-902a-fb5b99b4f7c5.png,323968,Leafy Vegetables,Kg,true,true,100,VAT,5
+4144490,Chilli Flakes  - 100g - Naturals,,5.5,https://cdn.tmbill.com/backoffice/product-image/1768734164674.png,313722,Flour & Grains,Pieces,true,true,1,VAT @ 5%,5
+4138849,Leek(s) (ලීක්ස්) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/fa754896-4735-4fd2-92c9-2dfcba07a385.png,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4333512,Chilli Paste 250g - Nutrigreenes,,23.5,,323964,Dry & Canned Foods,Pieces,true,true,1,VAT @ 5%,5
+4138865,Lemon Grass (සේර)- 100g,Pre Order,2.7,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/36b2bfbe-3f4d-4704-91d9-dcbad8f0dfb2.png,323968,Leafy Vegetables,Kg,true,true,100,VAT,5
+4333136,Chocalate Roll - NRS,,27.75,,323961,Bakery Items,Pieces,true,true,8,VAT @ 5%,5
+4345516,Cinnamon - Ginger Shots - 60ml,,12.25,,313474,Beverages,Pieces,true,true,16,VAT @ 5%,5
+4138871,Mukunuwanna (මුකුනුවැන්න) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/1768288563643.jpeg,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4144505,Cinnamon Ice cream - 125ml - Naturals,,11.5,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4138856,Pandan leaves (රම්පේ) - 50g,Pre Order,2,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/dc309f06-db0a-46da-9f88-cfc88cdf5aee.png,323968,Leafy Vegetables,Kg,true,true,100,VAT,5
+4144433,Cinnamon Ice cream -1 Litre - Naturals,,61.5,,336670,Ice Cream & Desserts,Pieces,true,true,1,VAT @ 5%,5
+4138859,Passion Leaves (වැල් දොඩම් කොළ) - 50g,Pre Order,1.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/e2dc45c7-f512-4f5d-b2ae-259c9b46f5b3.png,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4144463,Cinnamon Sticks (C5)  - 100g - Naturals,,11.25,,313722,Flour & Grains,Pieces,true,true,3,VAT @ 5%,5
+4138831,Saarana (හීන් සාරණ) - 20g,Pre Order,0.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/54de6192-baf1-4fed-b9f1-6adfddfa96c1.png,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4333516,Clogard Tooth Brush Smart Plus,,3.75,,313478,Personal Care,Pieces,true,true,48,VAT @ 5%,5
+4138829,Soursop Leaves (අනෝදා කොළ) - 250g,Pre Order,6,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a3a5f2a1-674f-4cac-b179-08a952c44eec.png,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4144465,Cloves  - 100g - Naturals,,16.25,https://cdn.tmbill.com/backoffice/product-image/1768570863114.jpeg,313722,Flour & Grains,Pieces,true,true,3,VAT @ 5%,5
+4333490,Baby Cheramy Baby Colone Classic 200ml,,18.25,,313488,Baby Items,Pieces,true,true,29,VAT @ 5%,5
+4138867,Spring Onion (ළූණු කොළ) - 50g,Pre Order,1.99,https://cdn.tmbill.com/backoffice/product-image/1768288514711.jpeg,323968,Leafy Vegetables,Kg,true,true,100,VAT,5
+4333518,Edinburgh Cocoa Powder 100g,,16.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3198da1e-1470-4fb5-b2c8-35336411bd3e.png,323973,Seeds & Spices,Pieces,true,true,5,VAT @ 5%,5
+4138843,Tender Leaves-Kohila Dalu- (කොහිල දළු) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/1768290412364.png,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4333519,Coconut Cluster Chilli Lime,,7.5,,323975,Snacks Items,Pieces,true,true,29,VAT @ 5%,5
+4138853,Wattakaka volubilis - Aguna Kola - (අඟුණ කොළ) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/742f47fc-d446-4c82-b8a4-32a48125b9b5.png,323968,Leafy Vegetables,Kg,true,true,100,VAT @ 5%,5
+4333522,Cool Mango Tropical Mango Fruit Drink,,14.5,,313474,Beverages,Pieces,true,true,13,VAT @ 5%,5
+4138852,Ambarella (ඇඹරැල්ල) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a30f8dd1-6e7d-4423-acaf-f3403b2fa54a.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4333524,Cool Pineapple Tropical  Pineapple Fruit Drink,,14.5,,313474,Beverages,Pieces,true,true,19,VAT @ 5%,5
+4138854,Ash Plantain (අළු කෙසෙල්) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/611793d5-9d1f-40dd-a04e-a9994f6bb759.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144492,Corriander Seeds  - 100g - Naturals,,4.25,https://cdn.tmbill.com/backoffice/product-image/1768733985066.png,313722,Flour & Grains,Pieces,true,true,5,VAT @ 5%,5
+4138855,Baby Jackfruit (පොලොස්) - 500g,Pre Order,11.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0a5a774e-6453-4f52-b9ab-6a1cf44f5c6a.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4333539,Cumin Seed 100g - Nutrigreenes,,5.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3a423a90-f418-45ea-951c-a6f29b592f76.png,323973,Seeds & Spices,Pieces,true,true,10,VAT @ 5%,5
+4138834,Banana Flower (කෙසෙල් මුව) - 500g,Pre Order,11.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/c4a985f3-de4d-4072-a4e7-ec532f5c7917.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144434,Curd & Treacle Ice cream - 1 Litre - Naturals,,61.5,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4138835,Beetroot (බීට්) - 250g,Pre Order,6.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/59fc589e-a378-406c-a5bd-2c1ae509aaf7.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144453,Curry Powder Raw  - 100g - Naturals,,6.25,https://cdn.tmbill.com/backoffice/product-image/1768571120170.jpeg,313722,Flour & Grains,Pieces,true,true,2,VAT @ 5%,5
+4138841,Bird Chilli-Heen Kochchi- (හීන් කොච්චී) - 20g,Pre Order,0.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/bcc826c0-a96b-4673-abeb-77c546f4d40a.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144461,Dark Curry Powder (Pork)  - 100g - Naturals,,7.75,,313722,Flour & Grains,Pieces,true,true,4,VAT @ 5%,5
+4138857,Bird's Eye Chilli - Nai Miris -  (නයි මිරිස්) - 20g,Pre Order,0.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/658e80cf-8d93-4fd5-8cf2-0aafc14b3ef2.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4345517,Dried Jack Fruit 250g - Naturalz,,9.25,,323964,Dry & Canned Foods,Pieces,true,true,4,VAT @ 5%,5
+4333546,Dry Shrimps 100g - Nutrigreenes,,4.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/f2d9fd95-d39d-4636-91b8-62c095497874.png,323964,Dry & Canned Foods,Pieces,true,true,28,VAT @ 5%,5
+4244007,Bitter Gourd -Thuba Karawila - (තුඹ කරවිල) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0c210af0-16f5-4689-883f-8da641cd3de1.png,313465,Vegetable,Kg,false,true,0,VAT @ 5%,5
+4144493,Fennel Seeds  - 100g - Naturals,,5.25,https://cdn.tmbill.com/backoffice/product-image/1768734258191.png,313722,Flour & Grains,Pieces,true,true,4,VAT @ 5%,5
+4138837,Brinjal  (වම්බටු) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/e37faa66-f578-4347-afcb-cbcf89704172.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4333556,Fenugreek Seed 100g - Nutrigreenes,,4.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3b56221f-a922-47ef-be86-c078fb95952a.png,323973,Seeds & Spices,Pieces,true,true,6,VAT @ 5%,5
+4138838,Butter Beans (බටර් බෝංචි) - 250g,Pre Order,6.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b04999a7-dbbc-4e07-8f46-a9b63c4ae4e7.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144495,Fenugreek Seeds  - 100g - Naturals,,4.5,https://cdn.tmbill.com/backoffice/product-image/1768734365356.png,313722,Flour & Grains,Pieces,true,true,4,VAT @ 5%,5
+4138872,Cabbage (ගෝවා) - 250g,Pre Order,6.5,https://cdn.tmbill.com/backoffice/product-image/1768291289706.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144468,Fish & Seafood Curry Seasoning Mix  - 100g - Naturals,,8.75,,313722,Flour & Grains,Pieces,true,true,3,VAT @ 5%,5
+4138839,Capsicum (මාලු මිරිස්) - 250g,Pre Order,7.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2e0ce010-ded0-41ff-ac70-a9e04a73edeb.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144460,Garam Masala Mix  - 100g - Naturals,,9.5,https://cdn.tmbill.com/backoffice/product-image/1768571191330.jpeg,313722,Flour & Grains,Pieces,true,true,3,VAT @ 5%,5
+4283543,Carrot 250g,Pre Order,20.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/05aa80bb-3310-4693-8640-244e64041fca.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4333558,Garcinia Paste 300g - Nutrigreenes,,17.25,,323964,Dry & Canned Foods,Pieces,true,true,2,VAT @ 5%,5
+4333559,Garlic Paste 300g - Nutrigreenes,,19.99,,323964,Dry & Canned Foods,Pieces,true,true,5,VAT @ 5%,5
+4138845,Cucumber (පිපිඤ්ඤා) - 250g,Pre Order,5.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/13fe0e3f-7290-406d-9be8-99c28bf765c9.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4138846,Dambala (දඹල) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/f6be8be8-99aa-4c23-877d-78cd43245774.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144443,Gastro Mango Sorbet -1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4138848,Green Beans (බෝංචි) - 250g,Pre Order,6.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7b803126-9cb2-4619-8009-6cec622267cc.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144509,Gastro Strawberry Sorbet - 125ml - Naturals,,11.5,https://cdn.tmbill.com/backoffice/product-image/1768553553712.png,336670,Ice Cream & Desserts,Pieces,true,true,5,VAT @ 5%,5
+4138842,Jack seeds (කොස් ඇට) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2a76b8d8-467b-4a9e-b2f4-5e875b5bc408.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144444,Gastro Strawberry Sorbet -1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,1,VAT @ 5%,5
+4138870,Kathurumurunga Leaves (කතුරු මුරුංගා) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/02180cee-db6e-4609-b839-e663efdc9864.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144506,Gastro Vannila Ice cream - 125ml - Naturals,,11.5,https://cdn.tmbill.com/backoffice/product-image/1768553459155.png,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4138860,Kohlrabi - (නෝකෝල්) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/eb2785f7-63c5-4fae-be93-eb11ec1c3151.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144441,Gastro Vannila Ice cream -1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4283542,Kolikuttu Banana,Pre Order,25,,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4138850,Long Beans (මෑකරල්) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/501cd6c6-7b19-4482-abfb-b9665c7dd367.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144497,Goraka Paste  - 100g - Naturals,,5.75,,313722,Flour & Grains,Pieces,true,true,1,VAT @ 5%,5
+4138869,Lotus Root (නෙළුම් අල) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/676977c9-0906-4ebb-8722-f938a2aa67dd.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4144496,Goraka Pieces  - 100g - Naturals,,4.5,,313722,Flour & Grains,Pieces,true,true,3,VAT @ 5%,5
+4138858,Onion Flowers (ලූනු මල්) - 50g,Pre Order,1.35,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2638f57d-ee06-4127-b079-9fc4daacf7a5.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4138851,Red Long Beans (රතු මෑ කරල්) - 250g,Pre Order,6.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/063c9855-6759-4c1c-aa9a-6e007749b659.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4138873,Red Onion (රතු ලූනු) - 250g,Pre Order,4.74,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/d2610db4-497e-47d3-ab22-c93dc7ed61d5.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4333572,Jack Mackerel 425g - Ceylon Kitchen ,,8.5,,323964,Dry & Canned Foods,Pieces,true,true,167,VAT @ 5%,5
+4144455,Jaffna Curry Powder - 100g - Naturals,,6.99,https://cdn.tmbill.com/backoffice/product-image/1768571341684.jpeg,313722,Flour & Grains,Pieces,true,true,1,VAT @ 5%,5
+4244006,Spine Gourd- Pathola - (පතෝල) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a614c566-c7dc-4281-a68c-a20c9fbe94a8.png,313465,Vegetable,Kg,false,true,0,VAT @ 5%,5
+4138844,Spiny Lasia-Kohila Ala - (කොහිල අල) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/bbf00596-6e67-4cb3-bef6-f8ca1798b1f8.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4333633,Kist Mix Fruit Cordail,,24,,313474,Beverages,Pieces,true,true,10,VAT @ 5%,5
+4138833,Sweet Potato (බතල) - 250g,Pre Order,6.25,https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9498c4c6-2240-47c8-be80-de810c9ff72e.webp,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4163867,Kochchi Bites NOAS 40g,,5.99,,323975,Snacks Items,Pieces,true,true,5,VAT @ 5%,5
+4138868,Tapioca (මඤ්ඤොක්කා) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b338f3c2-bc5e-45e3-8a6e-6645135c7105.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4333142,Kothmale Faluda 180Ml,,3.99,,313474,Beverages,Pieces,true,true,69,VAT @ 5%,5
+4138863,Thai Eggplant (තලන බටු) - 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3bbdfc2d-871a-4015-be3f-60216ed32adf.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4345518,Lemon & Honey - Ginger Shots - 60ml,,11.99,,313474,Beverages,Pieces,true,true,16,VAT @ 5%,5
+4138864,Turkey berry (තිබ්බටු)- 250g,Pre Order,6.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8a466b8b-e526-4fd2-9b28-3c0d5c29cd57.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4155532,Link Swastha Thriphala 30Pcs,,5.25,https://cdn.tmbill.com/backoffice/product-image/1768904269649.png,323960,Ayurvedic,Pieces,true,true,4,VAT @ 5%,5
+4138840,Wild Asparagus - Hathawariya - (හාතාවාරිය) - 20g,Pre Order,0.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0fdc3062-eb62-4544-8da1-65817f41582e.png,313465,Vegetable,Kg,true,true,100,VAT @ 5%,5
+4333144,Lokkas Kalu Dodol 325g,,12.25,,323975,Snacks Items,Pieces,false,true,0,VAT @ 5%,5
+4333664,Lokkas seeni murukku ,,3.25,,323975,Snacks Items,Pieces,true,true,34,VAT @ 5%,5
+4333671,Maliban Gingernut 160g,,3.5,,323975,Snacks Items,Pieces,true,true,17,VAT @ 5%,5
+4142107,Araliya Nadu Rice 5 Kg,,34.99,https://cdn.tmbill.com/backoffice/product-image/1768466312982.png,313485,Rice,Pieces,true,true,10,VAT,5
+4333147,Malwara Manjusawa,,9.75,,323975,Snacks Items,Pieces,true,true,4,VAT @ 5%,5
+4333675,Mango Chutny 350g - Nutrigreenes,,22.99,,323964,Dry & Canned Foods,Pieces,true,true,5,VAT @ 5%,5
+4144435,Mango Passion Ice cream - 1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4333493,Blue Butterfly Herbal  Drink Box (40g) - Nutrigreenes,,15,,323960,Ayurvedic,Pieces,true,true,3,VAT @ 5%,5
+4333677,Marmite 200g,,25.25,,323976,Spreads,Pieces,true,true,14,VAT @ 5%,5
+4333682,MD Candied Peel 450g,,21.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/61d7fe36-a8c2-4751-bed4-e92b4c5f4a16.png,323970,Pickles & Chutneys,Pieces,true,true,11,VAT @ 5%,5
+4333683,MD Coconut Vinegar 350g,,5.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7ad132df-845d-48f9-98e4-612917b4de64.png,323970,Pickles & Chutneys,Pieces,true,true,11,VAT @ 5%,5
+4333685,MD Katta Sambol 380g,,22.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/42521ba6-12c2-4054-bf2b-2a523c23d2a7.png,313482,Sambol,Pieces,true,true,6,VAT @ 5%,5
+4333686,MD Kitual Treacle 340ml - Nutrigreenes,,13.75,,323977,Syrups & Honey,Pieces,true,true,11,VAT @ 5%,5
+4333687,MD Kitul Tracle 750ml,,27.5,,323977,Syrups & Honey,Pieces,true,true,9,VAT @ 5%,5
+4333692,MD Passion Cordial 750ml,,23.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7369551f-f61f-4040-98c2-cacdfa534459.png,313474,Beverages,Pieces,true,true,13,VAT @ 5%,5
+4333699,Mentos mint,,0.25,,323975,Snacks Items,Pieces,true,true,112,VAT @ 5%,5
+4333700,Milk Tofee - Lokkas,,7.5,,323961,Bakery Items,Pieces,true,true,1,VAT @ 5%,5
+4333704,Motha Orange Jelly,,5.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/05ef33f1-eaae-40f0-8726-49eb80ae2be2.png,336670,Ice Cream & Desserts,Pieces,true,true,21,VAT,5
+4333707,Mountain Dew 330ml,,2.5,,313474,Beverages,Pieces,true,true,35,VAT @ 5%,5
+4333709,Munchee Cheese Buttons 215g,,15.25,,323975,Snacks Items,Pieces,true,true,19,VAT @ 5%,5
+4333712,Munchee Crevo Tin - Nutrigreenes,,15.25,,323975,Snacks Items,Pieces,true,true,24,VAT @ 5%,5
+4333713,Munchee Ginger 80g,,1.99,,323975,Snacks Items,Pieces,true,true,105,VAT @ 5%,5
+4333716,Munchee Lomon Puff 200g,,5.75,,323975,Snacks Items,Pieces,true,true,74,VAT,5
+4142087,Country Food White Raw Rice 1Kg,,7.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/44b2c8dc-4ac1-467a-9fef-b2239f30ef6b.png,313485,Rice,Pieces,true,true,10,VAT @ 5%,5
+4333718,Munchee Milk Short Cake 200g,,4.5,,323975,Snacks Items,Pieces,true,true,136,VAT @ 5%,5
+4333721,Munchee Tikiri Marie 400g,,9.75,,323975,Snacks Items,Pieces,true,true,13,VAT @ 5%,5
+4144494,Mustard Seeds 100g - Naturals,,4.5,,313722,Flour & Grains,Pieces,true,true,3,VAT @ 5%,5
+4333722,Musted Seed 100g - Nutrigreenes,,4.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/f6cca00e-0049-4775-a922-99c6c2032132.png,323973,Seeds & Spices,Pieces,true,true,7,VAT @ 5%,5
+4333728,Nikado Rasam Cup 100g,,4.5,,323976,Spreads,Pieces,true,true,45,VAT @ 5%,5
+4155537,Nutrigreenes Blue Butterfly Powder 50g,,15.25,https://cdn.tmbill.com/backoffice/product-image/1768902709713.png,323960,Ayurvedic,Pieces,true,true,3,VAT @ 5%,5
+4142104,Nutrigreenes Red Rice 4Kg,,26.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3d150fdc-52b2-4b20-9b69-f8a4c26eb6ac.png,313485,Rice,Pieces,true,true,13,VAT @ 5%,5
+4142103,Nutrigreenes Red Samba Rice 4kg,,26.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/58aa8c89-3e48-41cb-9a64-19b11c72b49e.png,313485,Rice,Pieces,true,true,7,VAT @ 5%,5
+4142105,Nutrigreenes White Rice 4Kg,,26.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/968e25b2-9557-40cc-af0c-340ebd0eedc3.png,313485,Rice,Pieces,true,true,5,VAT @ 5%,5
+4144510,Omani Halwa Ice cream - 125ml - Naturals,,15.25,https://cdn.tmbill.com/backoffice/product-image/1768465766562.png,336670,Ice Cream & Desserts,Pieces,true,true,5,VAT @ 5%,5
+4144445,Omani Halwa Ice cream -1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4171805,Organic Black Pepper Powder 100g,,15.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924197239.png,345519,Organic,Pieces,true,true,7,VAT @ 5%,5
+4171806,Organic Black Pepper Seeds 55g ,,15.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924221011.png,345519,Organic,Pieces,true,true,14,VAT @ 5%,5
+4171803,Organic Cinnamon Powder 40g ,,13.8,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924147343.png,345519,Organic,Pieces,true,true,15,VAT @ 5%,5
+4171804,Organic Cinnamon Sticks 40g ,,18.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924172928.png,345519,Organic,Pieces,true,true,24,VAT @ 5%,5
+4142106,NutriGreens Keeri Samba 4 Kg,,26.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b32211c1-c632-46d5-bed0-b5dc692a7690.png,313485,Rice,Pieces,true,true,10,VAT @ 5%,5
+4171809,Organic Coconut Amino 250ml,,34.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924289183.png,345519,Organic,Pieces,true,true,12,VAT @ 5%,5
+4171808,Organic Coconut Syrup 250ml,,43.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924249658.png,345519,Organic,Pieces,true,true,12,VAT @ 5%,5
+4333746,Red Nadu Rice,,37.79,,313485,Rice,Pieces,true,true,1,VAT @ 5%,5
+4171807,Organic Virgin Coconut Oil 500ml,,51.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924267701.png,345519,Organic,Pieces,true,true,10,VAT @ 5%,5
+4154990,Organic Woodapple & Coconut Blend Drink 250ml,,14.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924360830.png,313474,Beverages,Pieces,true,true,11,VAT @ 5%,5
+4144439,Papaya Lime Sorbet - 1 Litre - Naturals,,61.5,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4144503,Papaya Lime Sorbet - 125ml - Naturals,,11.5,https://cdn.tmbill.com/backoffice/product-image/1768553342251.png,336670,Ice Cream & Desserts,Pieces,true,true,4,VAT @ 5%,5
+4345519,Passion - Ginger Shots - 60ml,,12.5,,313474,Beverages,Pieces,true,true,16,VAT @ 5%,5
+4144518,Passion Fruit Drink - 350ml - Naturals,,12.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770924560564.png,313474,Beverages,Pieces,true,true,25,VAT @ 5%,5
+4333732,Peanut candy,,0.25,,323975,Snacks Items,Pieces,true,true,80,VAT @ 5%,5
+4333733,Pepper Powder 100g - Nutrigreenes,,7.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/e702ccec-73f9-495a-bc43-4ec7a4df6ef8.png,323973,Seeds & Spices,Pieces,true,true,13,VAT @ 5%,5
+4333734,Pepsi 330ml,,2.5,,313474,Beverages,Pieces,true,true,42,VAT @ 5%,5
+4144504,Pineapple Sorbet - 125ml - Naturals,,11.5,https://cdn.tmbill.com/backoffice/product-image/1768553379085.png,336670,Ice Cream & Desserts,Pieces,true,true,3,VAT @ 5%,5
+4144440,Pineapple Sorbet -1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,1,VAT @ 5%,5
+4333739,Prima Koththu Mee Instant Noodles - Hot & Spicy 5 Pack,,10.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/bc9f01cf-1586-47b4-b143-90c3c278bcb3.png,313469,Noodles,Pieces,true,true,96,VAT @ 5%,5
+4333745,Red Bull 250ml,,7.99,,313474,Beverages,Pieces,true,true,47,VAT,5
+4333747,Ribbon Cake - SM,,49.99,,323961,Bakery Items,kg,false,true,0,VAT @ 5%,5
+4144452,Roasted Chilli Powder  - 100g - Naturals,,6.99,,313722,Flour & Grains,Pieces,true,true,14,VAT @ 5%,5
+4144454,Roasted Curry Powder - 100g - Naturals,,6.99,,313722,Flour & Grains,Pieces,true,true,2,VAT @ 5%,5
+4144472,Cassava Chips Kochchi chilli  - 100g - Naturals,,7,,323975,Snacks Items,Pieces,true,true,1,VAT @ 5%,5
+4144470,"Roasted Fenugreek, Mustard etc Mix  - 100g - Naturals",,6.25,,313722,Flour & Grains,Pieces,true,true,4,VAT @ 5%,5
+4144515,Roasted Pistachio Ice cream - 125ml - Naturals,,15.25,https://cdn.tmbill.com/backoffice/product-image/1768553072943.png,336670,Ice Cream & Desserts,Pieces,true,true,4,VAT @ 5%,5
+4144449,Roasted Pistachio Ice cream -1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4144473,Cassava Chips Pepper & Sea Salt  - 100g - Naturals,,7,,323975,Snacks Items,Pieces,true,true,1,VAT @ 5%,5
+4144447,Rosewater Ice cream - 1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4144513,Rosewater Ice cream - 125ml - Naturals,,15.25,https://cdn.tmbill.com/backoffice/product-image/1768552965648.png,336670,Ice Cream & Desserts,Pieces,true,true,6,VAT @ 5%,5
+4144512,Saffron Ice cream - 125ml - Naturals,,15.25,https://cdn.tmbill.com/backoffice/product-image/1768552879290.png,336670,Ice Cream & Desserts,Pieces,true,true,4,VAT @ 5%,5
+4333753,Saffron Ice cream -1 Litre -NRS,,55,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4333756,Scotch Bonnet Hot Chilli Green Sause 120ml - Nutrigreenes,,9.99,,323966,Sauces & Dressings,Pieces,true,true,2,VAT @ 5%,5
+4333757,Scotch Bonnet Hot Chilli Red Sause 120ml - Nutrigreenes,,9.99,,323966,Sauces & Dressings,Pieces,true,true,2,VAT @ 5%,5
+4333758,Seeni Sambol 250g - Nutrigreenes,,22.25,,323964,Dry & Canned Foods,Pieces,true,true,3,VAT @ 5%,5
+4333759,Siddhalepa Asamodagam 350ml,,5.75,,323960,Ayurvedic,Pieces,true,true,93,VAT,5
+4155535,Siddhi Suwa Jeewanaya,,9.99,,323960,Ayurvedic,Pieces,true,true,1,VAT @ 5%,5
+4333762,Signal Fighter Tooth Brush,,3.99,,313478,Personal Care,Pieces,true,true,1,VAT @ 5%,5
+4333764,Signal Tooth Brush Fighter Medium,,4.25,,313478,Personal Care,Pieces,true,true,42,VAT @ 5%,5
+4333766,Soursop Drink - 350ml -Naturals,,12.99,,313474,Beverages,Pieces,true,true,26,VAT @ 5%,5
+4144438,Soursop Sorbet - 1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,2,VAT @ 5%,5
+4333495,CBL Lanka Soy Mango curry Taste 80g,,1.5,,313486,Soya Meat,Pieces,true,true,5,VAT @ 5%,5
+4333767,Sparts Badum 150g - Nutrigreenes,,29.99,,323964,Dry & Canned Foods,Pieces,true,true,4,VAT @ 5%,5
+4144458,Spicy BBQ Powder  - 100g - Naturals,,8.5,https://cdn.tmbill.com/backoffice/product-image/1768570824783.jpeg,313722,Flour & Grains,Pieces,true,true,5,VAT @ 5%,5
+4144459,Sweet BBQ Powder  - 100g - Naturals,,8.5,https://cdn.tmbill.com/backoffice/product-image/1768570769968.jpeg,313722,Flour & Grains,Pieces,true,true,3,VAT @ 5%,5
+4333777,Tamarind Paste 300g - Nutrigreenes,,20.75,,323964,Dry & Canned Foods,Pieces,true,true,3,VAT @ 5%,5
+4333778,Tamarind Sauce 120ml - Nutrigreenes,,14.99,,323964,Dry & Canned Foods,Pieces,true,true,3,VAT @ 5%,5
+4144476,Taro Chips Pepper & Sea Salt  - 60g - Naturals,,9.25,,323975,Snacks Items,Pieces,true,true,5,VAT @ 5%,5
+4144475,Taro Chips Sea Salt  - 60g - Naturals,,9.25,,323975,Snacks Items,Pieces,true,true,5,VAT @ 5%,5
+4333780,Tiara O-Kay sponge Layer Cake - Strawberry 18g,,2.5,,323961,Bakery Items,Pieces,true,true,20,VAT @ 5%,5
+4144516,Tiramisu Ice cream  - 125ml - Naturals,,15.25,https://cdn.tmbill.com/backoffice/product-image/1768553146925.png,336670,Ice Cream & Desserts,Pieces,true,true,1,VAT @ 5%,5
+4333788,Unroasted Curry Powder 100g - Nutrigreenes,,4.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0e79d315-acb1-4abf-846d-eb0c7235a9bf.png,323973,Seeds & Spices,Pieces,true,true,18,VAT @ 5%,5
+4333789,Uswatte Tipitip Onion Star 10g,,2.5,,323975,Snacks Items,Pieces,true,true,94,VAT @ 5%,5
+4333790,Uswatte Tiptip Cheese 10g,,2.5,,323975,Snacks Items,Pieces,true,true,112,VAT @ 5%,5
+4144519,Wood Apple Drink - 350ml - Naturals,,12.99,,313474,Beverages,Pieces,true,true,2,VAT @ 5%,5
+4144436,Woodapple Ice cream -1 Litre - Naturals,,55,,336670,Ice Cream & Desserts,Pieces,true,true,1,VAT @ 5%,5
+4333597,Kelani Lanka Kithul Treacle 340ml,,13.75,,323977,Syrups & Honey,Pieces,true,true,26,VAT,5
+4333598,Kelani Lanka Kithul Treacle 750ml,,22.99,,323977,Syrups & Honey,Pieces,true,true,20,VAT,5
+4333601,Kelani Lanka Maldive Fish Chips 100g,,12.25,,323964,Dry & Canned Foods,Pieces,true,true,117,VAT @ 5%,5
+4333607,Kelani Lanka Peanut Fry 100g,,6.25,,323964,Dry & Canned Foods,Pieces,true,true,42,VAT @ 5%,5
+4333608,Kelani Lanka Pepper Powder 100g,,8.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/87575daa-cff4-4a68-a455-165ae859754c.png,323973,Seeds & Spices,Pieces,true,true,78,VAT @ 5%,5
+4333611,Kelani Lanka Plain Curry 100g,,4.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/994d80ee-5a97-4cf5-9891-8ada8230156d.png,323973,Seeds & Spices,Pieces,true,true,181,VAT @ 5%,5
+4333615,Kelani Lanka Round Coconut Juggury 500g,,9.25,,313721,Coconut Products,Pieces,true,true,56,VAT @ 5%,5
+4333616,Kelani Lanka Sago Seeds 100g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/805ea1d9-589e-4f92-8788-0fc47cefaeeb.png,323973,Seeds & Spices,Pieces,true,true,73,VAT @ 5%,5
+4142074,Kelani Lanka Samba 1Kg,,8.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/328c976c-1eca-4f4a-811c-eadb09f903fe.png,313485,Rice,Pieces,true,true,49,VAT @ 5%,5
+4142075,Kelani Lanka Samba Rice 5Kg,,38.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0f823da5-ad60-4de3-81cf-da2dea62bac1.png,313485,Rice,Pieces,true,true,15,VAT @ 5%,5
+4333617,Kelani Lanka Sprats Badum 100g,,10,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/07feeb35-47e9-4cd4-af3d-cfd5a3b55627.png,323973,Seeds & Spices,Pieces,true,true,3,VAT @ 5%,5
+4333619,Kelani Lanka String Hopper Red 700g,,6.5,,313722,Flour & Grains,Pieces,true,true,37,VAT @ 5%,5
+4333620,Kelani Lanka Tamarind 100g,,3,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b4e33c1b-45f5-4f44-b1cf-403475b26e3d.png,323973,Seeds & Spices,Pieces,true,true,80,VAT @ 5%,5
+4142076,Kelani Lanka White Rice 1Kg,,8.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b44a99e1-0496-4bf3-aa61-941317cde737.png,313485,Rice,Pieces,true,true,104,VAT @ 5%,5
+4333507,Ceylon Noura Tea Bags pack 100Pcs,,25,,323978,Tea & Coffee,Pieces,true,true,37,VAT @ 5%,5
+4333577,Kelani Lanka Chilli Powder 100g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/baf9df73-85e3-4d6d-aa64-2183d657f113.png,323973,Seeds & Spices,Pieces,true,true,159,VAT @ 5%,5
+4333578,Kelani Lanka Cinnamon Stick 50g,,6.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a060f6da-bc23-4513-a948-828947b93d94.png,323973,Seeds & Spices,Pieces,true,true,2,VAT @ 5%,5
+4333579,Kelani Lanka Coconut Treacle 340ml,,10.75,,313721,Coconut Products,Pieces,true,true,10,VAT @ 5%,5
+4333580,Kelani Lanka Coktail Mixture 100g,,5.5,,323975,Snacks Items,Pieces,true,true,42,VAT @ 5%,5
+4333581,Kelani Lanka Couriender Whole 100g,,3,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/23ceace2-9b5c-4b08-8936-a421fe17f74d.png,323973,Seeds & Spices,Pieces,true,true,37,VAT @ 5%,5
+4333508,Ceylon Soursop Drink 330ml,,3.5,,313474,Beverages,Pieces,true,true,133,VAT @ 5%,5
+4333585,Kelani Lanka Cummin Seeds 100g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/834f1202-d3f3-49d5-a126-3db5bb14eeac.png,323973,Seeds & Spices,Pieces,true,true,15,VAT @ 5%,5
+4333594,Kelani Lanka Jaffna Curry Powder 100g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/f20cd6c1-9337-4035-8b13-523b3505f853.png,323973,Seeds & Spices,Pieces,true,true,67,VAT @ 5%,5
+4333595,Kelani Lanka Katta Fish Fry 100g,,9.25,,323964,Dry & Canned Foods,Pieces,true,true,11,VAT @ 5%,5
+4333596,Kelani Lanka Katta Sambol 350g,,20,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/55223ab0-8bfd-42eb-a8e1-682084fc5ca4.png,313482,Sambol,Pieces,true,true,19,VAT @ 5%,5
+4142077,Kelani Lanka Keeri Samba 1Kg,,10.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/6eaf18b6-f2a4-4a0f-8bf8-84c8835b73c9.png,313485,Rice,Pieces,true,true,61,VAT @ 5%,5
+4333600,Kelani Lanka Kottu Noodles 400g,,6.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7ba89989-b618-4f6c-9e93-80e540b40c2a.png,313469,Noodles,Pieces,true,true,34,VAT @ 5%,5
+4333602,Kelani Lanka Melon Candy 200g,,6.99,,323975,Snacks Items,Pieces,true,true,33,VAT @ 5%,5
+4333589,Kelani Lanka Dried Fish Keeramin 200g,,11.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/ff94c90d-bc96-46f5-a3c4-402de7a6bb36.png,323964,Dry & Canned Foods,Pieces,true,true,15,VAT @ 5%,5
+4333614,Kelani Lanka Roasted Curry Powder 100g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/30bd3dc4-4db6-4101-b461-d602b941286b.png,323973,Seeds & Spices,Pieces,true,true,149,VAT @ 5%,5
+4142078,Kelani Lanka Red Raw Rice 5Kg,,38.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a7e8c6b8-2f1c-487f-b50c-5b4a8e99d7cb.png,313485,Rice,Pieces,true,true,24,VAT @ 5%,5
+4333622,Kelani Lanka Turmeric Powder 100g,,4.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/47632bf6-331d-415a-bcd7-5f8f9f04eb96.png,323973,Seeds & Spices,Pieces,true,true,46,VAT @ 5%,5
+4333605,Kelani Lanka Noodles Kurakkan 400g,,6.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/90a0f82a-22ce-4e94-bdeb-1bdef202ab66.png,313469,Noodles,Pieces,true,true,28,VAT @ 5%,5
+4333606,Kelani Lanka Noodles Special 40g,,6.9,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/4853b0e4-779c-438b-8572-b0fd9e7e3893.png,313469,Noodles,Pieces,true,true,59,VAT @ 5%,5
+4163449,Kelani Lanka Soya Meat Chicken 90g,,3.5,,313486,Soya Meat,Pieces,true,true,9,VAT @ 5%,5
+4333513,Chilli Powder 1Kg - Ceylon Kitchen,,30,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7388415a-1bd6-419f-8e19-d4f8b72299ee.png,323973,Seeds & Spices,Pieces,true,true,9,VAT @ 5%,5
+4333584,Kelani Lanka Crushed Pepper 100g,,8.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/d804b107-99b2-47f6-a707-3e840814a2e6.png,323973,Seeds & Spices,Pieces,true,true,48,VAT @ 5%,5
+4333590,Kelani Lanka Fenugreek 100g,,3,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/1218bd82-b579-475d-a0a6-5019453932f9.png,323973,Seeds & Spices,Pieces,true,true,97,VAT @ 5%,5
+4333588,Kelani Lanka Dried Chilli 100g,,4.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/016a44cc-cf4e-4684-b9c5-4f04979162e7.png,323973,Seeds & Spices,Pieces,true,true,26,VAT @ 5%,5
+4333604,Kelani Lanka Noodles 400g,,6.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a635dbdd-8083-4ad6-a148-885bc1faa011.png,313469,Noodles,Pieces,true,true,47,VAT @ 5%,5
+4333613,Kelani Lanka Roasted Curry 1Kg,,38.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/aa848cf7-2585-4ffe-876f-489a3d0fbe1e.png,323973,Seeds & Spices,Pieces,true,true,9,VAT @ 5%,5
+4333599,Kelani Lanka Kooru Murukku 100g,,4.25,,323975,Snacks Items,Pieces,true,true,30,VAT @ 5%,5
+4333612,Kelani Lanka Plain Curry Powder 1Kg,,32.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/40b88b2e-7395-43d8-b353-3a26b291ca0e.png,323973,Seeds & Spices,Pieces,true,true,11,VAT @ 5%,5
+4333587,Kelani Lanka Dehydrated Jack Fruit 100g,,6.99,,323964,Dry & Canned Foods,Pieces,true,true,27,VAT @ 5%,5
+4333592,Kelani Lanka Goraka 100g,,3.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/34220e70-a004-4fb5-bedd-e1e68431e62f.png,323973,Seeds & Spices,Pieces,true,true,65,VAT @ 5%,5
+4333609,Kelani Lanka Pepper Whole 100g,,7.3,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/d3da4c34-dae1-4754-9921-b79914eb78d2.png,323973,Seeds & Spices,Pieces,true,true,103,VAT @ 5%,5
+4333670,Maliban Ginger Cookie 80g,,2,,323975,Snacks Items,Pieces,true,true,28,VAT @ 5%,5
+4333771,Supirivicky 70g,,4.99,,313478,Personal Care,Pieces,true,true,23,VAT @ 5%,5
+4333672,Maliban Hawain Cookies 100g,,2.5,,323975,Snacks Items,Pieces,true,true,25,VAT @ 5%,5
+4333591,Kelani Lanka Flour Kurakkan 400g,,9.5,,313722,Flour & Grains,Pieces,true,true,3,VAT @ 5%,5
+4333618,Kelani Lanka Special Papadam 50g,,2.5,,323974,Side Dish,Pieces,true,true,14,VAT @ 5%,5
+4333744,Pure Refined Salt Pouch 1Kg,,2.5,,323974,Side Dish,Pieces,true,true,24,VAT @ 5%,5
+4333646,Kumarika Oil Herbal 100ml,,8.5,,313478,Personal Care,Pieces,true,true,29,VAT @ 5%,5
+4333137,Clay Curry Dishes,,16,,323967,Kitchen Items,Pieces,true,true,3,VAT @ 5%,5
+4333647,Kumarika Oil Herbal 200ml,,13.25,,313478,Personal Care,Pieces,true,true,5,VAT @ 5%,5
+4333575,Kalkiri Chocolate,,10.99,,313474,Beverages,Pieces,true,true,39,VAT,5
+4155525,Link Enriched Paspanguwa 25g,,3.5,,323960,Ayurvedic,Pieces,true,true,19,VAT @ 5%,5
+4333138,Clay Mugs,,15,,323967,Kitchen Items,Pieces,false,true,0,VAT @ 5%,5
+4333657,Link Sudantha Toothpaste 80g,,5.5,,313478,Personal Care,Pieces,true,true,39,VAT,5
+4333696,MDK Flour Eazy Hopper 400g,,6.25,,313722,Flour & Grains,Pieces,true,true,12,VAT @ 5%,5
+4333697,MDK Red Rice String Hopper Flour 700g,,7.75,,313722,Flour & Grains,Pieces,true,true,51,VAT @ 5%,5
+4333698,MDK White String Hopper Flour 700g,,7.75,,313722,Flour & Grains,Pieces,true,true,25,VAT @ 5%,5
+4333669,Maliban Cream Cracker 190g,,3.5,,323975,Snacks Items,Pieces,true,true,2,VAT @ 5%,5
+4333673,Maliban Nice 100g,,2.5,,323975,Snacks Items,Pieces,true,true,50,VAT @ 5%,5
+4333738,Prima Koththu Mee Instant Noodles - Hot & Spicy 5 Pack,,10.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/d7fdad22-d031-447a-bfe0-10f904ff4fba.png,313469,Noodles,Pieces,true,true,38,VAT @ 5%,5
+4333737,Prima Koththu Mee Instant Noodles - Chicken 5 Pack,,10.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9107ce58-d861-42c6-98e1-5a9aaae227b9.png,313469,Noodles,Pieces,true,true,134,VAT @ 5%,5
+4333736,Prima Koththu Mee Chees & Onion 5 Pack,,10.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/57852ab8-c3db-4347-85d4-e82858e65101.png,313469,Noodles,Pieces,true,true,72,VAT @ 5%,5
+4333740,Prima Koththu Mee Masala 5 Pack,,10.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/14115071-34f0-419f-b5f9-837ac68182cd.png,313469,Noodles,Pieces,true,true,91,VAT @ 5%,5
+4333723,Nature Secrets Papaya Facial Wash 100ml,,12.25,,313478,Personal Care,Pieces,true,true,22,VAT @ 5%,5
+4333583,Kelani Lanka Crushed Chilli 100g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8fa90cb4-6333-4faa-a9e1-62d91675f9e9.png,323973,Seeds & Spices,Pieces,true,true,40,VAT @ 5%,5
+4333774,Swadeshi Rani,,4.25,,313478,Personal Care,Pieces,true,true,5,VAT @ 5%,5
+4142079,Kelani Lanka Red Raw Samba Rice 5Kg,,38.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/27761718-7fe4-452e-91a1-ca64a63c93a0.png,313485,Rice,Pieces,true,true,19,VAT @ 5%,5
+4142080,Kelani Lanka Red Raw Samba Rice 1Kg,,8.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/ff90bde7-88a4-48c1-aabf-5a4e38f74399.png,313485,Rice,Pieces,true,true,55,VAT @ 5%,5
+4142081,Kelani Lanka Red Raw Rice 1Kg,,8.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2bc0275c-14f2-489b-96c9-b47d583e5053.png,313485,Rice,Pieces,true,true,85,VAT @ 5%,5
+4142082,Kelani Lanka Suwandel 800g,,14.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/753d5a13-1401-494e-87c2-22fa31b43fbf.png,313485,Rice,Pieces,true,true,1,VAT @ 5%,5
+4333726,Nikado Amami  Papadam (100g) - Nutrigreenes,,3,,323975,Snacks Items,Pieces,true,true,3,VAT @ 5%,5
+4333527,Country Food Cumin Seeds 100g ,,4.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/5af25a54-0d58-4071-a719-827d58f63947.png,323973,Seeds & Spices,Pieces,true,true,88,VAT @ 5%,5
+4333528,Country Food Curry Powder Roasted 200g,,5.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0bc360b6-a022-4da0-b3e1-37cd42263aed.png,323973,Seeds & Spices,Pieces,true,true,124,VAT @ 5%,5
+4142083,Country Food Keeri Samba 1Kg,,10.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3b011df9-a844-4f16-844f-c525a8a21c28.png,313485,Rice,Pieces,true,true,18,VAT @ 5%,5
+4142084,Country Food Keeri Samba 5Kg,,52.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/e70e99fb-b9e5-4ec4-98b4-e71d35234830.png,313485,Rice,Pieces,true,true,6,VAT @ 5%,5
+4155526,Country Food Paspanguwa 100g,,5.25,https://cdn.tmbill.com/backoffice/product-image/1768906620938.png,323960,Ayurvedic,Pieces,true,true,21,VAT @ 5%,5
+4142085,Country Food Samba Rice 1Kg,,7.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/1ea15c5c-0082-434e-a11b-239839bb517e.png,313485,Rice,Pieces,true,true,34,VAT @ 5%,5
+4142086,Country Food Samba Rice 5Kg,,37.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/95f1d4ee-923d-4d54-8efb-8aa2b27983e5.png,313485,Rice,Pieces,true,true,2,VAT @ 5%,5
+4333531,Country Food Turmeric Powder 100g,,3.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/c9b856c8-a19c-444d-98df-efaa8d5e4a8c.png,323973,Seeds & Spices,Pieces,true,true,66,VAT @ 5%,5
+4163453,Lanka Soy Curry 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923412481.png,313486,Soya Meat,Pieces,true,true,37,VAT @ 5%,5
+4163454,Lanka Soy Ambul Thiyal 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923329765.png,313486,Soya Meat,Pieces,true,true,46,VAT @ 5%,5
+4163455,Lanka Soy Chicken 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770922817419.png,313486,Soya Meat,Pieces,true,true,156,VAT @ 5%,5
+4155528,CBL Gotukola Porridge 50g,,3.99,https://cdn.tmbill.com/backoffice/product-image/1768904543850.png,323960,Ayurvedic,Pieces,true,true,19,VAT @ 5%,5
+4155530,CBL Karapincha Porridge 50g,,3.99,https://cdn.tmbill.com/backoffice/product-image/1768904427715.png,323960,Ayurvedic,Pieces,true,true,25,VAT @ 5%,5
+4333568,Island Coffee 100g,,11.5,,323978,Tea & Coffee,Pieces,true,true,10,VAT @ 5%,5
+4333526,Country Food Chilli Powder 100g,,3.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/68530914-4bcb-4ab7-bf1a-adc2610ab154.png,323973,Seeds & Spices,Pieces,true,true,126,VAT @ 5%,5
+4333562,Harischandra Coffee 100g,,11.5,,323978,Tea & Coffee,Pieces,true,true,95,VAT @ 5%,5
+4333563,Harischandra Coffee 50g,,4.99,,323978,Tea & Coffee,Pieces,true,true,49,VAT @ 5%,5
+4333564,Harishchandra Noodles Kurrakan 400g,,8.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7eb5d223-8125-4879-bf8e-5ad7c0c5cf96.png,313469,Noodles,Pieces,true,true,7,VAT @ 5%,5
+4333565,Harishchandra Noodles Plain 400g,,8.5,,313469,Noodles,Pieces,true,true,49,VAT @ 5%,5
+4333566,Harishchandra Noodles Special 400g,,8.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/75553b1d-37b6-479d-8121-dec85dd864b0.png,313469,Noodles,Pieces,true,true,55,VAT @ 5%,5
+4155531,CBL Welpenala Porridge 50g,,3.99,https://cdn.tmbill.com/backoffice/product-image/1768904341707.png,323960,Ayurvedic,Pieces,true,true,33,VAT,5
+4333643,Kothmale Chocolate 180Ml,,3.99,,313474,Beverages,Pieces,true,true,68,VAT @ 5%,5
+4333645,Kothmale Vanila Milk 180Ml,,3.99,,313474,Beverages,Pieces,true,true,12,VAT @ 5%,5
+4163460,Delmage Soya Veg 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923858304.png,313486,Soya Meat,Pieces,true,true,18,VAT @ 5%,5
+4163461,Delmege Soya Meat Cuttle Fish 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923046917.png,313486,Soya Meat,Pieces,true,true,22,VAT @ 5%,5
+4163462,Delmege Soya Meat Mutton 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923067250.png,313486,Soya Meat,Pieces,true,true,16,VAT @ 5%,5
+4163463,Lanka Soy Cuttle Fish 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923430044.png,313486,Soya Meat,Pieces,true,true,168,VAT @ 5%,5
+4163464,Lanka Soy Kiri Malu 50g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923306851.png,313486,Soya Meat,Pieces,true,true,71,VAT @ 5%,5
+4163465,Lanka Soy Malu Soy Cuttle Fish 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923650949.png,313486,Soya Meat,Pieces,true,true,28,VAT @ 5%,5
+4163466,Lanka Soy Mutton 90g,,3.5,,313486,Soya Meat,Pieces,true,true,51,VAT @ 5%,5
+4163467,Lanka Soy Polos 90g,,3.5,,313486,Soya Meat,Pieces,true,true,120,VAT @ 5%,5
+4163468,Lanka Soy Prawns 90g,,3.5,,313486,Soya Meat,Pieces,true,true,19,VAT @ 5%,5
+4163469,Lanka Soy Reg 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923232016.png,313486,Soya Meat,Pieces,true,true,43,VAT @ 5%,5
+4163470,Lanka Soy Sprats 90g,,3.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923354383.png,313486,Soya Meat,Pieces,true,true,54,VAT @ 5%,5
+4156187,Link Swastha Amurthaya 4g (7 Pcs),,8.5,https://cdn.tmbill.com/backoffice/product-image/1768902602906.png,323960,Ayurvedic,Pieces,true,true,21,VAT @ 5%,5
+4333665,Maggi Coconut Milk Powder 1Kg,,55,,313721,Coconut Products,Pieces,true,true,4,VAT @ 5%,5
+4333690,MD Mango Chutney 460g,,11.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/72cc045b-2cc2-4d0b-ad40-eacbd9bd6f77.png,323970,Pickles & Chutneys,Pieces,true,true,1,VAT @ 5%,5
+4333691,MD Mixed Fruit Jam 500g,,12.5,,323966,Sauces & Dressings,Pieces,true,true,7,VAT @ 5%,5
+4333693,MD Pineapple Jam 500g,,12.5,,372356,Jam,Pieces,true,true,9,VAT,5
+4333695,MD Woodapple Jam 500g,,12.5,,372356,Jam,Pieces,true,true,3,VAT,5
+4333702,Motha Jelly Green 100g,,5.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/844176f8-4d70-49a1-96a4-0d2340edfc14.png,336670,Ice Cream & Desserts,Pieces,true,true,70,VAT,5
+4333517,Clogard Toothpaste 120g,,5.5,,313478,Personal Care,Pieces,true,true,37,VAT @ 5%,5
+4333551,Edinborough Mustard Cream 350g,,7.75,,323976,Spreads,Pieces,true,true,9,VAT @ 5%,5
+4333676,Marmite 100g,,18.75,,323976,Spreads,Pieces,true,true,57,VAT @ 5%,5
+4333684,MD Ginger Preserve 490g,,25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/cc89bc86-391f-453b-92e7-b3a1540d2ff5.png,323970,Pickles & Chutneys,Pieces,true,true,2,VAT @ 5%,5
+4155527,Country Food Venivelgeta 100g,,4.99,https://cdn.tmbill.com/backoffice/product-image/1768906546273.png,323960,Ayurvedic,Pieces,true,true,10,VAT @ 5%,5
+4333703,Motha Jelly Strawberry 100g,,5.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/0b28be16-2e7f-44e8-a474-d599ee130d53.png,336670,Ice Cream & Desserts,Pieces,true,true,35,VAT,5
+4333705,Motha Rose Faluda Mix 200g,,8.5,,313722,Flour & Grains,Pieces,true,true,12,VAT @ 5%,5
+4333706,Motha Watalappan 100g,,5.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/51d8e9e4-e93a-402e-aec8-65d310c92522.png,336670,Ice Cream & Desserts,Pieces,true,true,30,VAT,5
+4333625,Kist Aloe Vera Nectar,,3,,313474,Beverages,Pieces,true,true,50,VAT @ 5%,5
+4333627,Kist Chille Sauce 375g,,6.99,,323966,Sauces & Dressings,Pieces,true,true,8,VAT @ 5%,5
+4333532,Country Food Whole Coriander 100g,,1.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8dbf1f64-42ca-4eb4-b442-20e07fe63e14.png,323973,Seeds & Spices,Pieces,true,true,52,VAT @ 5%,5
+4333628,Kist Green Chille Sauce 375g,,8.5,,323966,Sauces & Dressings,Pieces,true,true,11,VAT @ 5%,5
+4333631,Kist Kochchi Sauce 200g,,6.99,,323966,Sauces & Dressings,Pieces,true,true,15,VAT @ 5%,5
+4333632,Kist Mango & Passion Nectar,,3,,313474,Beverages,Pieces,true,true,121,VAT @ 5%,5
+4333635,Kist Strawberry Jam 510g,,9.25,,372356,Jam,Pieces,true,true,5,VAT,5
+4333636,Kist Tomato Sauce 375g,,6.99,,323966,Sauces & Dressings,Pieces,true,true,39,VAT @ 5%,5
+4333637,Kist Vinegar Coconut 350ml,,4.75,,323974,Side Dish,Pieces,true,true,2,VAT @ 5%,5
+4333638,Kist Woodapple Jam 510g,,9.25,,372356,Jam,Pieces,true,true,18,VAT,5
+4333639,Kist Woodapple Nectar,,3,,313474,Beverages,Pieces,true,true,120,VAT @ 5%,5
+4333640,Kist Woodapple Nectar 1L,,10.75,,313474,Beverages,Pieces,true,true,7,VAT @ 5%,5
+4156189,Samahan 4gx10 Box,,10.75,https://cdn.tmbill.com/backoffice/product-image/1768902468866.png,323960,Ayurvedic,Pieces,true,true,85,VAT,5
+4333537,Crushed chilli 1Kg - Ceylon Kitchen,,30,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/119af651-1f1c-460d-b98f-8b1d7d25b0db.png,323973,Seeds & Spices,Pieces,true,true,8,VAT @ 5%,5
+4156190,Samahan 4gx100 Box,,90,https://cdn.tmbill.com/backoffice/product-image/1768744431751.png,323960,Ayurvedic,Pieces,true,true,17,VAT,5
+4333538,Crushed Pepper 100g - Ceylon Kitchen,,7.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2d639784-16a9-476f-80ec-fc36802e392f.png,323973,Seeds & Spices,Pieces,true,true,43,VAT @ 5%,5
+4155533,Samahan 4gx25 Box,,24,https://cdn.tmbill.com/backoffice/product-image/1768904032082.png,323960,Ayurvedic,Pieces,true,true,46,VAT,5
+4156192,Siddhalepa Balm 10g,,4.5,https://cdn.tmbill.com/backoffice/product-image/1768902146851.png,323960,Ayurvedic,Pieces,true,true,59,VAT @ 5%,5
+4156193,Siddhalepa Balm 25g,,10.5,https://cdn.tmbill.com/backoffice/product-image/1768902134594.png,323960,Ayurvedic,Pieces,true,true,84,VAT @ 5%,5
+4156194,Siddhalepa Balm 50g,,16.99,https://cdn.tmbill.com/backoffice/product-image/1768902278937.png,323960,Ayurvedic,Pieces,true,true,26,VAT @ 5%,5
+4333534,Country Foods Maldives Fish 100g,,11.5,,323964,Dry & Canned Foods,Pieces,true,true,50,VAT @ 5%,5
+4333689,MD Maldive Fish Sambol 300g,,24.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b6b7467a-626f-43bb-9f24-67a61f62bf52.png,313482,Sambol,Pieces,true,true,3,VAT @ 5%,5
+4333529,Country Food Curry Powder Unroasted 200g,,5.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/63ea22e4-381b-41a5-be11-bc4aef02306e.png,323973,Seeds & Spices,Pieces,true,true,71,VAT @ 5%,5
+4333553,Edinborough Young Green Jack Fruit Curry 520g,,13.99,,323964,Dry & Canned Foods,Pieces,true,true,78,VAT @ 5%,5
+4333783,Tiara Sponge Layer Cake Strawberry,,11.5,,323961,Bakery Items,Pieces,true,true,42,VAT @ 5%,5
+4333784,Tiara Sponge Layer Cake Vanila,,11.5,,323961,Bakery Items,Pieces,true,true,27,VAT @ 5%,5
+4333540,Curd Chilli 100g - Ceylon Kitchen,,4.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2e334c0b-a5f0-422a-85ed-0570c8614d76.png,323973,Seeds & Spices,Pieces,true,true,41,VAT @ 5%,5
+4333786,Tiara Swiss Roll Strawberry 200g,,6.99,,323961,Bakery Items,Pieces,true,true,20,VAT @ 5%,5
+4333785,Tiara Swiss Roll Chocolate 200g,,6.25,,323961,Bakery Items,Pieces,true,true,16,VAT @ 5%,5
+4333787,Tiara Swiss Roll Vanilla 200g,,6.25,,323961,Bakery Items,Pieces,true,true,24,VAT @ 5%,5
+4142089,Traditional Rice Kalu Heenati 1Kg,,15.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8f7c541a-6ce5-4e05-bbf6-4a4e7493f7f9.png,313485,Rice,Pieces,true,true,12,VAT @ 5%,5
+4163471,Lanka Soy Chilli Chicken 90g,,3.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923483077.png,313486,Soya Meat,Pieces,true,true,1,VAT @ 5%,5
+4163472,Lanka Soy Devilled Chicken,,3.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923150305.png,313486,Soya Meat,Pieces,true,true,9,VAT @ 5%,5
+4142090,Country Food Red Samba Rice 1Kg,,7.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/d6833883-30c4-48cf-aec2-1cf9ecebcb60.png,313485,Rice,Pieces,true,true,33,VAT @ 5%,5
+4142091,Country Food Red Samba Rice 5Kg,,37.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2760b4fd-f873-476f-bee5-ac35eaa8bbcf.png,313485,Rice,Pieces,true,true,3,VAT @ 5%,5
+4142092,Country Food Red Raw Rice 1Kg,,8.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a8b6dc09-5b69-4d9b-a401-0cba1b1c320d.png,313485,Rice,Pieces,true,true,18,VAT @ 5%,5
+4142093,Country Food Red Raw Rice 5Kg,,38.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b78fdcc3-d23a-4a1b-ab4e-859eb028d7de.png,313485,Rice,Pieces,true,true,9,VAT @ 5%,5
+4142094,Country Food Traditional Rice 1Kg,,16.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/293585fa-6caf-4d51-a4c4-94cfd52139c6.png,313485,Rice,Pieces,true,true,1,VAT @ 5%,5
+4333533,Country Foods Chilli Crushed 100g,,3.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/7b306491-9de6-48ce-841c-565258766b0b.png,323973,Seeds & Spices,Pieces,true,true,72,VAT @ 5%,5
+4333678,Marmite 50g,,10,,323976,Spreads,Pieces,true,true,72,VAT @ 5%,5
+4333569,Island Coffee Ginger 100g,,11.75,,323978,Tea & Coffee,Pieces,true,true,17,VAT @ 5%,5
+4333570,Island Coffee Venilla 100g,,11.75,,323978,Tea & Coffee,Pieces,true,true,19,VAT @ 5%,5
+4333748,Ritzbury Chunky Choc 120g,,4.75,,323975,Snacks Items,Pieces,true,true,40,VAT @ 5%,5
+4333782,Tiara Sponge Layer Cake Chocolate,,11.75,,323961,Bakery Items,Pieces,true,true,5,VAT @ 5%,5
+4333626,Kist Chille & Garlic 375g,,6.99,,323966,Sauces & Dressings,Pieces,true,true,6,VAT @ 5%,5
+4187494,Sustegen Chocolate 400g,,64.99,https://cdn.tmbill.com/backoffice/product-image/1769785680326.png,313491,Milk Powder,Pieces,true,true,7,VAT,5
+4187495,Sustegen Vanilla 400g,,64.99,https://cdn.tmbill.com/backoffice/product-image/1769785666983.png,313491,Milk Powder,Pieces,true,true,10,VAT,5
+4333763,Signal Tooth Brush,,2.75,,313478,Personal Care,Pieces,true,true,10,VAT @ 5%,5
+4333727,Nikado Papadam Hot & Crispy 100g,,3.99,,323974,Side Dish,Pieces,true,true,1,VAT @ 5%,5
+4333550,Edinborough Mix Fruit Cordial,,16.99,,313474,Beverages,Pieces,true,true,3,VAT @ 5%,5
+4333140,Date Cake ,,65,,323961,Bakery Items,kg,true,true,1,VAT @ 5%,5
+4333770,Suensu 200ml,,13.75,,313474,Beverages,Pieces,true,true,20,VAT @ 5%,5
+4333793,Watawala Ceylon Tea 200g,,13.25,,323978,Tea & Coffee,Pieces,true,true,46,VAT @ 5%,5
+4333509,Ceylonta Tea Powder 200g,,16.99,,323978,Tea & Coffee,Pieces,true,true,2,VAT @ 5%,5
+4142095,Araliya Keeri Samba 5Kg,,44.99,https://cdn.tmbill.com/backoffice/product-image/1768466536408.jpeg,313485,Rice,Pieces,true,true,8,VAT @ 5%,5
+4333545,Dry Fish Thalapath 200g - Nutrigreenes,,8.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/01462508-f249-4803-91ab-e5edb63f3e93.png,323964,Dry & Canned Foods,Pieces,true,true,6,VAT @ 5%,5
+4333542,Dry Fish Balaya 200g - Nutrigreenes,,7.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/c1da291a-5140-4a0d-906b-533d1474088f.png,323964,Dry & Canned Foods,Pieces,true,true,2,VAT @ 5%,5
+4333547,Dry Whole Red Chilli 100g - Nutrigreenes,,3.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/4e124fd4-f116-4ba2-b0f6-52eea3cc8747.png,323973,Seeds & Spices,Pieces,true,true,6,VAT @ 5%,5
+4333679,Masala Curry Powder 100g - Nutrigreenes,,7,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/098a7293-b43b-4277-9baf-ab2ae9b3d67e.png,323973,Seeds & Spices,Pieces,true,true,10,VAT @ 5%,5
+4333730,Nutrigreenes Chilli Powder 100g,,4.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/10055051-d7b1-474d-8171-adb032ee0fec.png,323973,Seeds & Spices,Pieces,true,true,17,VAT @ 5%,5
+4333749,Roasted Curry Powder 100g - Nutrigreenes,,5.25,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a1cba4db-9cc4-43be-9e6f-d2e53eb43f51.png,323973,Seeds & Spices,Pieces,true,true,12,VAT @ 5%,5
+4333710,Munchee Chocolate Cream Biscuits 100g,,2.75,,323975,Snacks Items,Pieces,true,true,14,VAT @ 5%,5
+4333711,Munchee Chocolate Puff 200g,,5.75,,323975,Snacks Items,Pieces,true,true,72,VAT @ 5%,5
+4333719,Munchee Nice 200g,,5.25,,323975,Snacks Items,Pieces,true,true,51,VAT @ 5%,5
+4333714,Munchee Hawaian Cookies 200g,,3.99,,323975,Snacks Items,Pieces,true,true,92,VAT @ 5%,5
+4333720,Munchee Super Cream Cracker 190g,,5.25,,323975,Snacks Items,Pieces,true,true,86,VAT @ 5%,5
+4333661,Lokkas Peanut Deval 100g,,3.99,,323975,Snacks Items,Pieces,true,true,42,VAT @ 5%,5
+4333663,Lokkas Sawbora 100g,,3.99,,323975,Snacks Items,Pieces,true,true,17,VAT @ 5%,5
+4333659,Lokkas Miris Bola 80g,,3.99,,323975,Snacks Items,Pieces,true,true,102,VAT @ 5%,5
+4333662,Lokkas Rock Cake 100g,,3.99,,323961,Bakery Items,Pieces,true,true,42,VAT @ 5%,5
+4333660,Lokkas Nanacata 175g,,3.99,,323975,Snacks Items,Pieces,true,true,23,VAT @ 5%,5
+4333494,Boom Boom 250ml,,4.25,,313474,Beverages,Pieces,true,true,42,VAT @ 5%,5
+4333541,Dry Chillie 100g,,4,,323973,Seeds & Spices,Pieces,true,true,25,VAT @ 5%,5
+4333485,Al Falaj Water Bottle 1.5L,,2,,313474,Beverages,Pieces,true,true,154,VAT @ 5%,5
+4333486,Al Falaj Water Bottle 500Ml,,1,,313474,Beverages,Pieces,true,true,382,VAT @ 5%,5
+4333525,Cool Soursop Tropical Soursop Drink,,14.75,,313474,Beverages,Pieces,true,true,5,VAT @ 5%,5
+4333543,Dry Fish Keeramin 200g - Nutrigreenes,,10,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/dde67dfb-d61e-4f70-b9fa-e27e10069850.png,323964,Dry & Canned Foods,Pieces,true,true,5,VAT @ 5%,5
+4333521,Cool King-Oragnic King Coconut Water Drink,,14.75,,313474,Beverages,Pieces,true,true,19,VAT @ 5%,5
+4155215,Organic Tender Cocnut Water Drink 250ml,,14.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770925163003.png,313474,Beverages,Pieces,true,true,3,VAT @ 5%,5
+4333544,Kelani Lanka DRY Fish Shrimp,,5.79,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/ab93bc78-bce7-404f-a6bb-d4dd7f5a3b35.png,323964,Dry & Canned Foods,Pieces,true,true,34,VAT @ 5%,5
+4333523,Cool Passion-Organic Passion Fruit Drink,,14.75,,313474,Beverages,Pieces,true,true,10,VAT @ 5%,5
+4333520,Cool Jack Tropical Jackfruit Drink,,14.75,,313474,Beverages,Pieces,true,true,30,VAT @ 5%,5
+4333535,Crunchy Coconut Chips Chocolate 40g,,7.5,,323975,Snacks Items,Pieces,true,true,21,VAT,5
+4333536,Crunchy Coconut Chips Original 40g,,7.5,,323975,Snacks Items,Pieces,true,true,25,VAT @ 5%,5
+4333658,Little Lion Sponge Roll Chocolate 200g,,19.25,,323975,Snacks Items,Pieces,true,true,36,VAT @ 5%,5
+4155534,Samahan 1Pcs,,1.25,,323960,Ayurvedic,Pieces,true,true,26,VAT,5
+4333139,Coconut Scraper - Wooden,,26.25,,323967,Kitchen Items,Pieces,true,true,6,VAT @ 5%,5
+4345522,Kiri Mutti,,12,,323967,Kitchen Items,Pieces,false,true,0,VAT @ 5%,5
+4333143,Lokkas Batto 100g,,3.99,,323975,Snacks Items,Pieces,true,true,26,VAT @ 5%,5
+4333145,Lokkas Plain Bread Rusk,,3.99,,323975,Snacks Items,Pieces,true,true,24,VAT @ 5%,5
+4333146,Lokkas Suger Rusk,,3.99,,323975,Snacks Items,Pieces,true,true,27,VAT @ 5%,5
+4333634,Kist Pineapple Jam 510g,,9.25,,372356,Jam,Pieces,true,true,18,VAT,5
+4333731,P&S Sponge Roll Chocolate,,22.5,,323961,Bakery Items,Pieces,true,true,7,VAT @ 5%,5
+4333623,Kelani Lanka Vinegar Coconut 340ml,,5.75,,313721,Coconut Products,Pieces,true,true,9,VAT @ 5%,5
+4333576,Kelani Lanka  Mustard Seeds 100g,,3,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/08558619-d607-444d-b9ea-bc858ef081a5.png,323973,Seeds & Spices,Pieces,true,true,123,VAT @ 5%,5
+4333621,Kelani Lanka Tosai Mix,,8.5,,313722,Flour & Grains,Pieces,true,true,71,VAT @ 5%,5
+4333624,Kelani Lanka Wood Apple Jam 450g,,13,,372356,Jam,Pieces,true,true,5,VAT,5
+4333603,Kelani Lanka Mixed Fruit Jam 450g,,13,,372356,Jam,Pieces,true,true,5,VAT,5
+4142101,Country Food White Raw Rice 5Kg,,40.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/934b2322-7251-4d43-9315-a19d973ccb29.png,313485,Rice,Pieces,true,true,1,VAT @ 5%,5
+4333779,Tiara Butter Raisin,,11.5,,323961,Bakery Items,Pieces,true,true,21,VAT @ 5%,5
+4333593,Kelani Lanka Goraka Paste,,5.5,,323976,Spreads,Pieces,true,true,54,VAT @ 5%,5
+4333549,Edinborough Mango Cordial,,14.29,,313474,Beverages,Pieces,true,true,1,VAT @ 5%,5
+4333557,Freelan Meat Curry Powder Mixture,,3.25,,323973,Seeds & Spices,Pieces,true,true,40,VAT @ 5%,5
+4333674,FREELAN Malu Ambulthiyal Mixture 40,,2.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/2b271f81-5af9-4bdc-a473-61f4d9579f95.png,323973,Seeds & Spices,Pieces,true,true,40,VAT @ 5%,5
+4333610,Kelani Lanka Pineapple Jam 450g,,13,,323966,Sauces & Dressings,Pieces,true,true,5,VAT @ 5%,5
+4163474,CBL Lanka Soy Jambo,,3.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923453196.png,313486,Soya Meat,Pieces,true,true,9,VAT @ 5%,5
+4333729,Nutri Greens Kithul Jaggery 250g,,5.25,,323977,Syrups & Honey,Pieces,true,true,3,VAT @ 5%,5
+4333751,Rose Syrup Flavoured Edinborouh -750ml - Nutrigreenes,,16.25,,323977,Syrups & Honey,Pieces,true,true,15,VAT @ 5%,5
+4333552,Edinborough Strawberry Flavored Jelly Crystals 100g,,5.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/bf0ac172-04af-43e7-afd7-269bb52a9b8f.png,336670,Ice Cream & Desserts,Pieces,true,true,11,VAT,5
+4163475,CBL Lanka Soy Mango curry Taste 80g,,3.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923200736.png,313486,Soya Meat,Pieces,true,true,48,VAT @ 5%,5
+4163476,CBL Lanka Soy Devilled Cuttlefish Flavour 90g,,3.75,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/backoffice/product-image/9438852_1770923281686.png,313486,Soya Meat,Pieces,true,true,4,VAT @ 5%,5
+4333548,Edinbarough Sweet Chilli Sauce 405g,,12.25,,323966,Sauces & Dressings,Pieces,true,true,3,VAT @ 5%,5
+4333554,Edinborouh Chilli  & Garlic Sauce 200g,,7.5,,323966,Sauces & Dressings,Pieces,true,true,6,VAT @ 5%,5
+4333555,Faluda Flavoured Milk  ,,3.5,,323977,Syrups & Honey,Pieces,true,true,62,VAT @ 5%,5
+4333561,Gingelly Rolls - 200g,,11.5,,323975,Snacks Items,Pieces,true,true,15,VAT @ 5%,5
+4333141,Guruleththu With Tap,,47.99,,323967,Kitchen Items,Pieces,true,true,1,VAT @ 5%,5
+4333571,Jack Mackerel  425g - Ceylon House,,7,,323964,Dry & Canned Foods,Pieces,true,true,787,VAT @ 5%,5
+4333573,Jaffna Curry Powder 100g - Ceylon Kitchen,,4,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/5ba086b1-65e6-4c5b-bfe3-3c48d5065474.png,323973,Seeds & Spices,Pieces,true,true,42,VAT @ 5%,5
+4333574,Jaffna Curry Powder 500g ,,20,,323973,Seeds & Spices,Pieces,true,true,6,VAT @ 5%,5
+4333629,Kist Kitul Honey 340ml,,8.29,,323977,Syrups & Honey,Pieces,true,true,19,VAT @ 5%,5
+4333630,Kist Kitul Honey 750ml,,24.99,,323977,Syrups & Honey,Pieces,true,true,8,VAT @ 5%,5
+4333641,Kithul Treacle 340ml - Ceylon House,,14.25,,323977,Syrups & Honey,Pieces,true,true,23,VAT,5
+4333642,Kokis Mold regulars,,16,,323967,Kitchen Items,Pieces,true,true,33,VAT @ 5%,5
+4333644,Kothmale Ice Coffee 180Ml,,3.5,,313474,Beverages,Pieces,true,true,60,VAT @ 5%,5
+4149323,Lankan Taste Cashew 100g,,11.75,,323975,Snacks Items,Pieces,true,true,7,VAT @ 5%,5
+4149318,Lankan Taste Chilli Flakes 100g,,6.5,https://cdn.tmbill.com/backoffice/product-image/1768569014917.jpeg,323973,Seeds & Spices,Pieces,true,true,37,VAT @ 5%,5
+4149312,Lankan Taste Chilli Powder 100g,,6.75,https://cdn.tmbill.com/backoffice/product-image/1768569267853.jpeg,323973,Seeds & Spices,Pieces,true,true,9,VAT @ 5%,5
+4149316,Lankan Taste Cinnamon Sticks-Pure Ceylon 100g,,9.75,https://cdn.tmbill.com/backoffice/product-image/1768568793728.jpeg,323973,Seeds & Spices,Pieces,true,true,20,VAT @ 5%,5
+4149311,Lankan Taste Clove 50g,,8.5,https://cdn.tmbill.com/backoffice/product-image/1768569491333.jpeg,323973,Seeds & Spices,Pieces,true,true,5,VAT @ 5%,5
+4149327,Lankan Taste Curry Powder - 100g,,5.99,https://cdn.tmbill.com/backoffice/product-image/1768569569902.jpeg,323973,Seeds & Spices,Pieces,true,true,21,VAT @ 5%,5
+4333648,Lankan Taste Dried Bombili 100g,,7.99,,323964,Dry & Canned Foods,Pieces,true,true,5,VAT @ 5%,5
+4333649,Lankan Taste Dried Shark 200g,,11.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/e2ec4bea-88f1-4249-a671-fc88cde1eaf9.png,323964,Dry & Canned Foods,Pieces,true,true,7,VAT @ 5%,5
+4333652,Lankan Taste Dry Sparts 250g,,11.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8eff3b65-9557-4c78-9fbf-1e8010e376e7.png,323964,Dry & Canned Foods,Pieces,true,true,32,VAT @ 5%,5
+4333650,Lankan Taste Dried Thalapath 200g,,7.99,,323964,Dry & Canned Foods,Pieces,true,true,3,VAT @ 5%,5
+4333651,Lankan Taste DRY FISH Katta 200g,,9.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8283ec2b-cee8-4ebf-b832-13b36e8606a0.png,323964,Dry & Canned Foods,Pieces,true,true,1,VAT @ 5%,5
+4333653,Lankan Taste Dry Sprats 200g,,10.5,,323964,Dry & Canned Foods,Pieces,true,true,11,VAT @ 5%,5
+4149315,Lankan Taste Goraka 100g,,4.25,https://cdn.tmbill.com/backoffice/product-image/1768568768082.jpeg,323973,Seeds & Spices,Pieces,true,true,39,VAT @ 5%,5
+4149338,Lankan Taste Kalpiti Dried Katta 100g,,6.99,https://cdn.tmbill.com/backoffice/product-image/1768557619587.jpeg,323964,Dry & Canned Foods,Pieces,true,true,12,VAT @ 5%,5
+4149337,Lankan Taste Kalpiti Dried Kenda 150g,,8.5,https://cdn.tmbill.com/backoffice/product-image/1768568683782.jpeg,323964,Dry & Canned Foods,Pieces,true,true,5,VAT @ 5%,5
+4149332,Lankan Taste Kalpiti Dried Linna 100g,,7.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9e1b9c4b-28df-4d5b-8bd9-702ccdbc1f15.png,323964,Dry & Canned Foods,Pieces,true,true,1,VAT @ 5%,5
+4149335,Lankan Taste Kalpiti Dried Sea Chicken 200g,,9.5,https://cdn.tmbill.com/backoffice/product-image/1768733318116.jpeg,323964,Dry & Canned Foods,Pieces,true,true,2,VAT @ 5%,5
+4333655,Lankan Taste Maldive Fish 100g,,9.79,,323973,Seeds & Spices,Pieces,true,true,13,VAT @ 5%,5
+4149314,Lankan Taste Pepper Powder 100g,,8.75,https://cdn.tmbill.com/backoffice/product-image/1768557863366.jpeg,323973,Seeds & Spices,Pieces,true,true,11,VAT @ 5%,5
+4149319,Lankan Taste Rosted Chilli Powder 100g,,7.25,https://cdn.tmbill.com/backoffice/product-image/1768569088718.jpeg,323973,Seeds & Spices,Pieces,true,true,14,VAT @ 5%,5
+4149320,Lankan Taste Rosted Curry Powder 100g,,7.25,,323973,Seeds & Spices,Pieces,true,true,29,VAT @ 5%,5
+4149313,Lankan Taste Turmerics Powder 100g,,9.5,https://cdn.tmbill.com/backoffice/product-image/1768569045302.jpeg,323973,Seeds & Spices,Pieces,true,true,8,VAT @ 5%,5
+4149317,Lankan Taste Whole Pepper 100g,,7.75,https://cdn.tmbill.com/backoffice/product-image/1768569358684.jpeg,323973,Seeds & Spices,Pieces,true,true,24,VAT @ 5%,5
+4333654,Lankan Taste Kithul Treacle 370ml,,26.99,,323977,Syrups & Honey,Pieces,true,true,1,VAT,5
+4333656,Lifebouy Soap,,4.29,,313478,Personal Care,Pieces,true,true,30,VAT @ 5%,5
+4333666,Maggi Coconut Milk Powder 300g,,23.99,,313721,Coconut Products,Pieces,true,true,50,VAT,5
+4333667,Maldive Fish Sambol 250g,,18,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/af25fc5a-7f09-4575-b2f8-642d5f86bc51.png,313482,Sambol,Pieces,true,true,5,VAT @ 5%,5
+4333668,Maliban Bran Cracker 210g,,3.99,,323975,Snacks Items,Pieces,true,true,6,VAT @ 5%,5
+4333680,Mastard Seed 100g,,3,,323973,Seeds & Spices,Pieces,true,true,40,VAT @ 5%,5
+4333681,MC Currie Pepper Powder 100g,,6.99,,323973,Seeds & Spices,Pieces,true,true,19,VAT @ 5%,5
+4333688,MD Lunumiris Sambol 200g,,9.5,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/04c53c27-612a-4ac9-848b-6b8272f23c7b.png,313482,Sambol,Pieces,true,true,1,VAT @ 5%,5
+4333694,MD Pumpkin Preserve 490g,,14.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8283999d-63f6-44b1-ba4d-0eec78e7e965.png,323970,Pickles & Chutneys,Pieces,true,true,3,VAT @ 5%,5
+4333148,Meti Pahan,,2.99,,323969,Patriotic Items,Pieces,false,true,0,VAT @ 5%,5
+4333701,Milk Toffee - Mikee - 200g,,12,,323975,Snacks Items,Pieces,true,true,31,VAT @ 5%,5
+4333708,MR POP,,3.5,,323975,Snacks Items,Pieces,true,true,5,VAT @ 5%,5
+4333715,Munchee Lemon Puff 100g,,2.49,,323975,Snacks Items,Pieces,true,true,11,VAT @ 5%,5
+4333717,Munchee Marie 400g,,7.5,,323975,Snacks Items,Pieces,true,true,25,VAT @ 5%,5
+4333149,National Flag,,2.99,,323969,Patriotic Items,Pieces,false,true,0,VAT,5
+4333150,National Flag Stickers,,2.99,,323969,Patriotic Items,Pieces,true,true,12,VAT,5
+4333724,Nelli Syrup Edinborouh -750ml - Nutrigreenes,,15.75,,323977,Syrups & Honey,Pieces,true,true,12,VAT @ 5%,5
+4333725,Nestomolt Pouch 400g,,14.5,,313491,Milk Powder,Pieces,true,true,140,VAT @ 5%,5
+4333151,Pittu Bambu,,26.79,,323967,Kitchen Items,Pieces,false,true,0,VAT @ 5%,5
+4333735,Plain Curry Powder 1Kg,,30,,323973,Seeds & Spices,Pieces,true,true,8,VAT @ 5%,5
+4333152,Post Card,,4.99,,323969,Patriotic Items,Pieces,true,true,7,VAT @ 5%,5
+4333741,Pristine Black Tea 200g,,13.99,,323978,Tea & Coffee,Pieces,true,true,11,VAT @ 5%,5
+4333742,Pure Ceylon Black Tea Bags 100 - Ceylan Tea,,17.5,,323978,Tea & Coffee,Pieces,true,true,9,VAT @ 5%,5
+4333743,Pure Ceylon Black Tea Powder - Ceylan Tea,,13,,323978,Tea & Coffee,Pieces,true,true,20,VAT @ 5%,5
+4333750,Roasted Curry Powder 1Kg,,30,,323973,Seeds & Spices,Pieces,true,true,10,VAT @ 5%,5
+4333752,Rosted Curry Powder (Black) 100g,,4,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9e2c40d1-d1a8-4ede-83b9-8bd65cebf329.png,323973,Seeds & Spices,Pieces,true,true,24,VAT @ 5%,5
+4333153,Roti Plate - Medium,,11.99,,323967,Kitchen Items,Pieces,true,true,7,VAT @ 5%,5
+4333765,SMAC Garlic Mixed Bite 150g,,9.99,,323975,Snacks Items,Pieces,true,true,18,VAT @ 5%,5
+4333154,String Hopper Mould Wooden,,22.79,,323967,Kitchen Items,Pieces,true,true,2,VAT @ 5%,5
+4333155,String Hopper Tray Set Wooden,,22.5,,323967,Kitchen Items,Pieces,true,true,6,VAT @ 5%,5
+4333768,String Hoppers flour red 1Kg - Jayathilaka,,8.5,,313722,Flour & Grains,Pieces,true,true,22,VAT @ 5%,5
+4333769,String Hoppers flour white 1Kg - Jayathilaka,,8.5,,313722,Flour & Grains,Pieces,true,true,17,VAT @ 5%,5
+4333156,String Hoppers Mould,,25.99,,323967,Kitchen Items,Pieces,true,true,3,VAT @ 5%,5
+4333772,Supirivicky 70g,,4.25,,313478,Personal Care,Pieces,true,true,50,VAT @ 5%,5
+4333773,Swadeshi Rani 75g,,3.75,,313478,Personal Care,Pieces,true,true,19,VAT @ 5%,5
+4333776,T Bun - Lokkas,,3.5,,323961,Bakery Items,Pieces,true,true,11,VAT @ 5%,5
+4333781,Tiara Rollo Chocolate Coated Swiss Roll 30g,,5.5,,323961,Bakery Items,Pieces,true,true,216,VAT @ 5%,5
+4333792,Viva Milk Powder Pack 400g,,17.99,,313491,Milk Powder,Pieces,true,true,2,VAT @ 5%,5
+4333158,Wesak-Kudu Set,,8.5,,323969,Patriotic Items,Pieces,false,true,0,VAT @ 5%,5
+4333794,White Tea Ceylon Golden Tips 48g,,175,,323978,Tea & Coffee,Pieces,true,true,5,VAT @ 5%,5
+4333795,White Tea Ceylon Silver Tips 48g,,150,,323978,Tea & Coffee,Pieces,true,true,5,VAT @ 5%,5
+4475269,Chocolate bar Kit Kat 36.5g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9d3249c4-cb2b-4787-a63e-ca5313872921.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475270,Nestle Kitkat Chunky Peanut Butter 42g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/57a240a1-fb8b-467c-a946-8a21ef3b183a.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475271,Bounty Chocolate Bar 57g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3f116d7f-9769-4954-b82e-18ff98341fe5.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475272,Snickers 40g,,4.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/577caae9-9e10-4f65-810e-1d692f415622.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475273,Lindt Swiss Milk Chocolate 100g - Milk chocolate bar,,15.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/62d87e1e-95ee-469b-a393-5763061c045d.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475274,Dubai Chocolate Kunafa Pistachio 200G,,17.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3daa98d4-2a86-445b-b2fa-433940f8ef3e.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475275,Cadbury Dairy Milk Chocolate 135g,,9.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/915bb223-8e17-4500-af88-eab053ce4f44.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475276,Kinder Bueno 430g Pack of 8+2 Free,,29.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/1cd29133-96da-4e37-b022-fccb47b5f774.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475277,Merci Finest Selection Assorted Chocolates 400g,,39,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/b9513d8c-8bd6-4eb2-9374-5c57c3a2d289.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475278,Lotus Biscoff Original Caramelised Biscuits 250g-Crunchy Biscuit Cookies,,10.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/3bbd938f-6ee0-470e-83b0-0a4f9f09a44c.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475279,Ritter Sport Butter Biscuit 100g (Bundle of 2),,13.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/393f131d-7c76-4436-b8f8-9d602da92411.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475280,Lindt Excellence Intense Orange Chocolate 100g,,32.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/eecf9566-4834-4863-8a15-413bdc64c5cc.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475281,Raffaello 15 Pieces 150g,,27.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/4808d089-c2a2-4f81-b33a-07a47f1de025.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475282,Nutella Hazelnut Spread with Cocoa 350g,,18.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/1ec81552-b792-4cc0-bf19-92bc63181cd8.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475283,Snickers Mini 2 x 6 x 180g ,,22.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/6f059197-5c9e-49f3-867e-123ffe547cc5.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475284,Cadbury Dairy Milk Minis Hazelnut Chocolate Bag 156g,,17.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/653b44d1-446a-4a11-9858-a982b5361fd2.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475285,Quanta Milk Chocolate Mini Snacking Bars Mix 314g,,15.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/afde5711-7428-4bb6-a13b-9676ee8343b0.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475286,Minis Mixed Chocolate 400g (20 pieces),,24.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/36c58e6a-4c98-40bf-8859-132918f50b07.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475287,Nestle Best of Minis 25 Chocolate Bars 500g,,27.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/72aeb63a-92d0-4e8a-b8a0-56c06f1743a3.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475288,Bounty Miniatures 150g,,12.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/e92b0ba2-d7b3-4e9e-a8ca-385ba01df57e.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475289,Toblerone Milk Chocolate 168g,,17.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/20d164fe-29f7-451e-a1a0-c4900abcaea5.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475290,Ritter Sport Raisins Hazelnuts 100g - milk chocolate bar,,9.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/93d5950e-2fb5-4895-ab47-4656b2c10075.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475291,RITTER SPORT Whole Almonds 100g,,12.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/41f6a7eb-4a0e-4bd6-a947-0b643fb6d916.png,323928,Chocolate,Pcs,false,true,0,VAT @ 5%,5
+4475292,Pringles Cheesy Cheese 165g,,7.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/51101d1c-cfac-47bf-8088-a87082acbdf7.png,323975,Snacks Items,Pcs,false,true,0,VAT @ 5%,5
+4475293,Pringles Salt & Vinegar 165g,,8.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/eb258a90-9425-4778-9d7b-c13b15665e20.png,323975,Snacks Items,Pcs,false,true,0,VAT @ 5%,5
+4475294,Pringles Paprika 165g,,8.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/e99c973c-f83c-4d9a-9e87-17e7e6ac18ee.png,323975,Snacks Items,Pcs,false,true,0,VAT @ 5%,5
+4475295,Pringles Chips 165G,,8.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/85f8cc2a-b307-4ae0-a624-e8cfb27f250d.png,323975,Snacks Items,Pcs,false,true,0,VAT @ 5%,5
+4475296,Ovaltine Chocolate Powder 400g,,16.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/696084e0-7457-4c28-9d3c-76eefa7f0aeb.png,323978,Tea & Coffee,Pcs,false,true,0,VAT @ 5%,5
+4475297,Nestle Coffee Mate Original Coffee Creamer 400g,,16.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/d4025730-a3e1-485a-b322-7c6fb0a7a821.png,323978,Tea & Coffee,Pcs,false,true,0,VAT @ 5%,5
+4475298,Ahmad Tea Special Blend 500g,,29.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/a67363a3-e0ed-470f-87d0-70c797d4d0e6.png,323978,Tea & Coffee,Pcs,false,true,0,VAT @ 5%,5
+4475299,Twinings English Breakfast Extra Strong Teabags 50 x 2.3g,,29.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/c0ec32b5-4d95-411a-a9f4-d925836e7ac8.png,323978,Tea & Coffee,Pcs,false,true,0,VAT @ 5%,5
+4475300,Nice Day Cappuccino Coffee 20x25g,,19.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/5fb30d52-3ad4-4234-9ffc-62e2e1a193b0.png,323978,Tea & Coffee,Pcs,false,true,0,VAT @ 5%,5
+4475301,Cadbury Cocoa Powder 125g,,18.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/9f772ddd-0d78-4519-8214-6810f0b070dc.png,323978,Tea & Coffee,Pcs,false,true,0,VAT @ 5%,5
+4475302,Red Bull Sugar Free 250Ml,,7.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/8b68247c-1408-48f0-b0f6-870ef792bf7e.png,313474,Beverages,Pcs,false,true,0,VAT @ 5%,5
+4475303,Pakistani Natural Honey 1 kg,,34.99,https://cdn.tmbill.com/backoffice/product-image/https://cdn.tmbill.com/tmpos/backoffice/9438852/products/53d2dc8a-0c16-4b8b-9384-6bc2e8c780b8.png,323977,Syrups & Honey,Pcs,false,true,0,VAT @ 5%,5
