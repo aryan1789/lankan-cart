@@ -11,8 +11,11 @@ import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import SearchResults from './pages/SearchResults';
 import Account from './pages/Account';
+import Checkout from './pages/Checkout';
+import CheckoutSuccess from './pages/CheckoutSuccess';
+import AuthCallback from './pages/AuthCallback';
 
-const HIDE_NAVBAR_ROUTES = ['/login', '/register'];
+const HIDE_NAVBAR_ROUTES = ['/login', '/register', '/auth/callback'];
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -41,6 +44,9 @@ export default function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/search" element={<SearchResults />} />
           <Route path="/account" element={<Account />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/checkout/success" element={<CheckoutSuccess />} />
+          <Route path="/auth/callback" element={<AuthCallback />} />
           {/* Fallback */}
           <Route path="*" element={<Home />} />
         </Routes>

@@ -4,7 +4,7 @@ import { Eye, EyeOff, ArrowLeft } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 export default function Register() {
-  const { register, isLoading } = useAuth();
+  const { register, signInWithGoogle } = useAuth();
   const navigate = useNavigate();
 
   const [form, setForm] = useState({
@@ -16,6 +16,7 @@ export default function Register() {
   });
   const [showPw, setShowPw] = useState(false);
   const [error, setError] = useState('');
+  const [pending, setPending] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -30,11 +31,34 @@ export default function Register() {
       return;
     }
 
-    const ok = await register(form.name.trim(), form.email.trim(), form.password, form.phone.trim() || undefined);
-    if (ok) {
-      navigate('/', { replace: true });
-    } else {
-      setError('An account with this email already exists.');
+    setPending(true);
+    try {
+      const result = await register(form.name.trim(), form.email.trim(), form.password, form.phone.trim() || undefined);
+      if (result.ok) {
+        if (result.needsEmailConfirmation) {
+          navigate('/login', {
+            replace: true,
+            state: { message: 'Check your email to confirm your account, then sign in.' },
+          });
+          return;
+        }
+        navigate('/', { replace: true });
+      } else {
+        setError(result.error ?? 'Could not create account. Try a different email.');
+      }
+    } finally {
+      setPending(false);
+    }
+  };
+
+  const handleGoogle = async () => {
+    setError('');
+    setPending(true);
+    try {
+      const { error } = await signInWithGoogle();
+      if (error) setError(error);
+    } finally {
+      setPending(false);
     }
   };
 
@@ -83,6 +107,24 @@ export default function Register() {
               </div>
             )}
 
+            <button
+              type="button"
+              onClick={handleGoogle}
+              disabled={pending}
+              className="w-full flex items-center justify-center gap-2 border border-gray-200 bg-white py-3 rounded-xl font-semibold text-sm text-gray-800 hover:bg-gray-50 disabled:opacity-60 transition-colors"
+            >
+              <span className="text-lg" aria-hidden>
+                G
+              </span>
+              Continue with Google
+            </button>
+
+            <div className="flex items-center gap-3 text-xs text-gray-400 uppercase tracking-wide">
+              <span className="flex-1 h-px bg-gray-200" />
+              or email
+              <span className="flex-1 h-px bg-gray-200" />
+            </div>
+
             {field('Full Name', 'name', 'text', 'Ashan Perera')}
             {field('Email Address', 'email', 'email', 'you@example.com')}
             {field('Phone Number (optional)', 'phone', 'tel', '+64 21 234 5678')}
@@ -122,10 +164,10 @@ export default function Register() {
 
             <button
               type="submit"
-              disabled={isLoading}
+              disabled={pending}
               className="w-full bg-[#00B140] text-white py-3.5 rounded-xl font-semibold text-sm hover:bg-[#039A5A] disabled:opacity-70 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 mt-2"
             >
-              {isLoading ? (
+              {pending ? (
                 <>
                   <div className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" />
                   Creating account...

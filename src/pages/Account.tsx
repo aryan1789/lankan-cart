@@ -1,12 +1,26 @@
+import { useEffect, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { LogOut, ShoppingBag, User, Phone, Mail, ChevronRight } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
+import { countUserOrders } from '../lib/orders';
 
 export default function Account() {
   const { user, logout } = useAuth();
   const { totalItems } = useCart();
   const navigate = useNavigate();
+  const [orderCount, setOrderCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (!user) return;
+    let cancelled = false;
+    countUserOrders().then((n) => {
+      if (!cancelled) setOrderCount(n);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [user]);
 
   if (!user) {
     return (
@@ -33,8 +47,12 @@ export default function Account() {
       {/* Profile Header */}
       <div className="bg-gradient-to-br from-[#00B140] to-[#039A5A] rounded-2xl p-6 text-white mb-5">
         <div className="flex items-center gap-4">
-          <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-2xl font-bold">
-            {user.name[0].toUpperCase()}
+          <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-2xl font-bold overflow-hidden shrink-0">
+            {user.avatarUrl ? (
+              <img src={user.avatarUrl} alt="" className="w-full h-full object-cover" />
+            ) : (
+              user.name[0]?.toUpperCase() ?? '?'
+            )}
           </div>
           <div>
             <h2 className="text-xl font-bold">{user.name}</h2>
@@ -51,8 +69,8 @@ export default function Account() {
           <div className="text-xs text-gray-500 mt-0.5">Items in Cart</div>
         </div>
         <div className="bg-white rounded-2xl p-4 shadow-sm text-center">
-          <div className="text-2xl font-bold text-green-600">0</div>
-          <div className="text-xs text-gray-500 mt-0.5">Orders Placed</div>
+          <div className="text-2xl font-bold text-green-600">{orderCount === null ? '—' : orderCount}</div>
+          <div className="text-xs text-gray-500 mt-0.5">Orders placed</div>
         </div>
       </div>
 
@@ -85,7 +103,11 @@ export default function Account() {
 
       {/* Sign Out */}
       <button
-        onClick={() => { logout(); navigate('/'); }}
+        type="button"
+        onClick={async () => {
+          await logout();
+          navigate('/');
+        }}
         className="w-full mt-5 flex items-center justify-center gap-2 border-2 border-red-100 text-red-500 py-3.5 rounded-xl font-semibold hover:bg-red-50 transition-colors"
       >
         <LogOut className="w-5 h-5" />

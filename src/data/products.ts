@@ -167,6 +167,24 @@ export const getProducts = async (): Promise<Product[]> => {
   return (data as ProductRow[] | null ?? []).map(mapProduct);
 };
 
+export const getProductsByIds = async (ids: string[]): Promise<Product[]> => {
+  if (ids.length === 0) return [];
+
+  const uniqueIds = Array.from(new Set(ids.map((id) => String(id))));
+  const { data, error } = await supabase
+    .from('products')
+    .select('external_id,name,description,price,image_url,category_external_id,category_name,unit,in_stock,active,current_stock,tax_rate')
+    .in('external_id', uniqueIds)
+    .eq('active', true);
+
+  if (error) {
+    console.error('Failed to load cart products', error.message);
+    return [];
+  }
+
+  return (data as ProductRow[] | null ?? []).map(mapProduct);
+};
+
 export const getProductsByCategory = async (categoryId: string): Promise<Product[]> => {
   const { data, error } = await supabase
     .from('products')

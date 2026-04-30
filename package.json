@@ -9,7 +9,13 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "import:dubai": "node scripts/import-dubai-menu.mjs",
-    "import:supabase": "node scripts/import-dubai-to-supabase.mjs"
+    "import:supabase": "node scripts/import-dubai-to-supabase.mjs",
+    "supabase": "supabase",
+    "supabase:login": "supabase login",
+    "supabase:link": "supabase link",
+    "supabase:deploy:checkout": "supabase functions deploy create-checkout-session",
+    "supabase:deploy:webhook": "supabase functions deploy stripe-webhook",
+    "supabase:deploy:functions": "supabase functions deploy create-checkout-session && supabase functions deploy stripe-webhook"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.1",
@@ -20,6 +26,7 @@
     "react-router-dom": "^7.14.0"
   },
   "devDependencies": {
+    "supabase": "^2.95.6",
     "@eslint/js": "^9.39.4",
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
@@ -37,3 +44,4 @@
     "vite": "^8.0.4"
   }
 }
+

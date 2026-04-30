@@ -1,48 +1,19 @@
-import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Plus, Minus, Trash2, ShoppingBag, ArrowRight, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Plus, Minus, Trash2, ShoppingBag, ArrowRight } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 
 export default function Cart() {
-  const { items, updateQuantity, removeFromCart, totalItems, totalPrice, clearCart } = useCart();
+  const { items, updateQuantity, removeFromCart, totalItems, totalPrice } = useCart();
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [ordered, setOrdered] = useState(false);
-
   const handleCheckout = () => {
     if (!user) {
       navigate('/login', { state: { from: '/cart' } });
       return;
     }
-    setOrdered(true);
-    clearCart();
+    navigate('/checkout');
   };
-
-  if (ordered) {
-    return (
-      <div className="min-h-screen bg-[#F5F5F7] flex items-center justify-center px-4">
-        <div className="bg-white border border-gray-200 rounded-lg p-8 max-w-sm w-full text-center">
-          <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <CheckCircle className="w-8 h-8 text-[#00B140]" />
-          </div>
-          <h2 className="text-xl font-semibold text-gray-900 mb-2">Order placed</h2>
-          <p className="text-gray-500 text-sm mb-6">
-            Thanks for shopping with LankaCart. We'll have your order ready shortly.
-          </p>
-          <div className="bg-gray-50 border border-gray-200 rounded p-3 mb-6 text-left text-sm space-y-1 text-gray-600">
-            <div>Estimated delivery: 2–4 business days</div>
-          </div>
-          <Link
-            to="/"
-            className="block w-full bg-[#00B140] text-white py-2.5 rounded font-semibold text-sm text-center hover:bg-[#039A5A] transition-colors"
-          >
-            Continue shopping
-          </Link>
-        </div>
-      </div>
-    );
-  }
 
   if (items.length === 0) {
     return (
@@ -156,7 +127,7 @@ export default function Cart() {
               onClick={handleCheckout}
               className="w-full mt-4 bg-[#00B140] text-white py-2.5 rounded font-semibold text-sm flex items-center justify-center gap-2 hover:bg-[#039A5A] transition-colors"
             >
-              {user ? 'Place order' : 'Sign in to checkout'}
+              {user ? 'Proceed to checkout' : 'Sign in to checkout'}
               <ArrowRight className="w-4 h-4" />
             </button>
 

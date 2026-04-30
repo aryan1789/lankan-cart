@@ -1,0 +1,8 @@
+# Link your project with `supabase link` so project_id is filled, or set it manually.
+# Edge Functions: deploy with `supabase functions deploy create-checkout-session` and `supabase functions deploy stripe-webhook`
+
+[functions.create-checkout-session]
+verify_jwt = true
+
+[functions.stripe-webhook]
+verify_jwt = false

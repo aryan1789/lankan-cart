@@ -37,8 +37,10 @@ export default function Navbar() {
     }
 
     if (query.trim().length <= 1) {
-      setSuggestions([]);
-      setIsSearching(false);
+      queueMicrotask(() => {
+        setSuggestions([]);
+        setIsSearching(false);
+      });
       return;
     }
 
@@ -91,7 +93,11 @@ export default function Navbar() {
                     onClick={() => { navigate(`/product/${p.id}`); setQuery(''); setSuggestions([]); }}
                     className="flex items-center gap-3 w-full px-3 py-2.5 hover:bg-gray-50 text-left border-b border-gray-100 last:border-0"
                   >
-                    <img src={p.image} alt={p.name} className="w-9 h-9 rounded object-cover shrink-0" />
+                    {p.image ? (
+                      <img src={p.image} alt={p.name} className="w-9 h-9 rounded object-cover shrink-0" />
+                    ) : (
+                      <div className="w-9 h-9 rounded bg-gray-100 shrink-0 flex items-center justify-center text-sm">🛒</div>
+                    )}
                     <div className="min-w-0">
                       <div className="text-sm font-medium text-gray-800 truncate">{p.name}</div>
                       <div className="text-xs text-gray-500">${p.price.toFixed(2)}</div>
@@ -131,11 +137,16 @@ export default function Navbar() {
             {user ? (
               <div className="relative">
                 <button
+                  type="button"
                   onClick={() => setShowMenu(!showMenu)}
                   className="flex items-center gap-1.5 px-2 py-2 rounded hover:bg-gray-100 text-gray-700 transition-colors"
                 >
-                  <div className="w-7 h-7 bg-[#00B140] rounded-full flex items-center justify-center text-white text-xs font-bold shrink-0">
-                    {user.name[0].toUpperCase()}
+                  <div className="w-7 h-7 bg-[#00B140] rounded-full flex items-center justify-center text-white text-xs font-bold shrink-0 overflow-hidden">
+                    {user.avatarUrl ? (
+                      <img src={user.avatarUrl} alt="" className="w-full h-full object-cover" />
+                    ) : (
+                      user.name[0]?.toUpperCase() ?? '?'
+                    )}
                   </div>
                   <span className="hidden sm:block text-sm font-medium max-w-[80px] truncate">{user.name.split(' ')[0]}</span>
                   <ChevronDown className="w-3.5 h-3.5 text-gray-400 hidden sm:block" />
@@ -147,7 +158,12 @@ export default function Navbar() {
                       <div className="text-xs text-gray-500 truncate mt-0.5">{user.email}</div>
                     </div>
                     <button
-                      onClick={() => { logout(); setShowMenu(false); navigate('/'); }}
+                      type="button"
+                      onClick={async () => {
+                        await logout();
+                        setShowMenu(false);
+                        navigate('/');
+                      }}
                       className="flex items-center gap-2 w-full px-4 py-2.5 text-sm text-red-600 hover:bg-red-50 transition-colors"
                     >
                       <LogOut className="w-4 h-4" />
@@ -198,7 +214,11 @@ export default function Navbar() {
                     onClick={() => { navigate(`/product/${p.id}`); setQuery(''); setSuggestions([]); setShowSearch(false); }}
                     className="flex items-center gap-3 w-full px-3 py-2.5 hover:bg-gray-50 text-left border-b border-gray-100 last:border-0"
                   >
-                    <img src={p.image} alt={p.name} className="w-9 h-9 rounded object-cover shrink-0" />
+                    {p.image ? (
+                      <img src={p.image} alt={p.name} className="w-9 h-9 rounded object-cover shrink-0" />
+                    ) : (
+                      <div className="w-9 h-9 rounded bg-gray-100 shrink-0 flex items-center justify-center text-sm">🛒</div>
+                    )}
                     <div className="min-w-0">
                       <div className="text-sm font-medium text-gray-800 truncate">{p.name}</div>
                       <div className="text-xs text-gray-500">${p.price.toFixed(2)}</div>

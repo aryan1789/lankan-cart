@@ -4,7 +4,7 @@ import { Eye, EyeOff, ArrowLeft } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 export default function Login() {
-  const { login, isLoading } = useAuth();
+  const { login, signInWithGoogle } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   const from = (location.state as { from?: string })?.from || '/';
@@ -12,15 +12,33 @@ export default function Login() {
   const [form, setForm] = useState({ email: '', password: '' });
   const [showPw, setShowPw] = useState(false);
   const [error, setError] = useState('');
+  const [pending, setPending] = useState(false);
+  const flashMessage = (location.state as { message?: string } | null)?.message ?? '';
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
-    const ok = await login(form.email.trim(), form.password);
-    if (ok) {
-      navigate(from, { replace: true });
-    } else {
-      setError('Invalid email or password. Please try again.');
+    setPending(true);
+    try {
+      const result = await login(form.email.trim(), form.password);
+      if (result.ok) {
+        navigate(from, { replace: true });
+      } else {
+        setError(result.error ?? 'Invalid email or password. Please try again.');
+      }
+    } finally {
+      setPending(false);
+    }
+  };
+
+  const handleGoogle = async () => {
+    setError('');
+    setPending(true);
+    try {
+      const { error } = await signInWithGoogle();
+      if (error) setError(error);
+    } finally {
+      setPending(false);
     }
   };
 
@@ -45,11 +63,34 @@ export default function Login() {
 
           {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-4">
+            {flashMessage && (
+              <div className="bg-green-50 border border-green-200 text-green-800 text-sm px-4 py-3 rounded-xl">
+                {flashMessage}
+              </div>
+            )}
             {error && (
               <div className="bg-red-50 border border-red-200 text-red-700 text-sm px-4 py-3 rounded-xl">
                 {error}
               </div>
             )}
+
+            <button
+              type="button"
+              onClick={handleGoogle}
+              disabled={pending}
+              className="w-full flex items-center justify-center gap-2 border border-gray-200 bg-white py-3 rounded-xl font-semibold text-sm text-gray-800 hover:bg-gray-50 disabled:opacity-60 transition-colors"
+            >
+              <span className="text-lg" aria-hidden>
+                G
+              </span>
+              Continue with Google
+            </button>
+
+            <div className="flex items-center gap-3 text-xs text-gray-400 uppercase tracking-wide">
+              <span className="flex-1 h-px bg-gray-200" />
+              or email
+              <span className="flex-1 h-px bg-gray-200" />
+            </div>
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1.5">
@@ -90,10 +131,10 @@ export default function Login() {
 
             <button
               type="submit"
-              disabled={isLoading}
+              disabled={pending}
               className="w-full bg-[#00B140] text-white py-3.5 rounded-xl font-semibold text-sm hover:bg-[#039A5A] disabled:opacity-70 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2"
             >
-              {isLoading ? (
+              {pending ? (
                 <>
                   <div className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" />
                   Signing in...

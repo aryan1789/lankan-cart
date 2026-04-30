@@ -14,12 +14,16 @@ export default function ProductCard({ product }: Props) {
   return (
     <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col hover:border-gray-300 transition-colors">
       <Link to={`/product/${product.id}`} className="relative block bg-gray-50">
-        <img
-          src={product.image}
-          alt={product.name}
-          className="w-full h-40 object-cover"
-          loading="lazy"
-        />
+        {product.image ? (
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-full h-40 object-cover"
+            loading="lazy"
+          />
+        ) : (
+          <div className="w-full h-40 flex items-center justify-center text-4xl">🛒</div>
+        )}
         {!product.inStock && (
           <div className="absolute inset-0 bg-white/75 flex items-center justify-center">
             <span className="text-xs font-medium text-gray-500 border border-gray-300 px-2 py-1 rounded bg-white">
