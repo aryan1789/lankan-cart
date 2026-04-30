@@ -241,7 +241,7 @@ Deno.serve(async (req) => {
             currency,
             unit_amount: fallbackTotal,
             product_data: {
-              name: `LankaCart order ${String(order.id ?? orderId).slice(0, 8)}`,
+              name: `LankanCart order ${String(order.id ?? orderId).slice(0, 8)}`,
             },
           },
           quantity: 1,
@@ -261,7 +261,7 @@ Deno.serve(async (req) => {
       });
     }
 
-    const stripe = new Stripe(stripeSecret, { appInfo: { name: 'LankaCart' } });
+    const stripe = new Stripe(stripeSecret, { appInfo: { name: 'LankanCart' } });
     const origin = new URL(appOrigin).origin;
 
     const session = await stripe.checkout.sessions.create({

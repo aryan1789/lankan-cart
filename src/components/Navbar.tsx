@@ -65,7 +65,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="shrink-0 flex items-center gap-2">
             <span className="text-xl">🛒</span>
-            <span className="font-bold text-[#00B140] text-base tracking-tight">LankaCart</span>
+            <span className="font-bold text-[#00B140] text-base tracking-tight">LankanCart</span>
           </Link>
 
           {/* Desktop Search */}

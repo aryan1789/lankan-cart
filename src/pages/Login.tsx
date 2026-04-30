@@ -58,7 +58,7 @@ export default function Login() {
           <div className="text-center mb-8">
             <div className="text-5xl mb-3">🛒</div>
             <h1 className="text-2xl font-bold text-gray-900">Welcome back!</h1>
-            <p className="text-gray-500 mt-1 text-sm">Sign in to your LankaCart account</p>
+            <p className="text-gray-500 mt-1 text-sm">Sign in to your LankanCart account</p>
           </div>
 
           {/* Form */}

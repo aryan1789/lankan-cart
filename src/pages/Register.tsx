@@ -96,7 +96,7 @@ export default function Register() {
           {/* Brand */}
           <div className="text-center mb-8">
             <div className="text-5xl mb-3">🛒</div>
-            <h1 className="text-2xl font-bold text-gray-900">Join LankaCart</h1>
+            <h1 className="text-2xl font-bold text-gray-900">Join LankanCart</h1>
             <p className="text-gray-500 mt-1 text-sm">Authentic Sri Lankan groceries in New Zealand</p>
           </div>
 

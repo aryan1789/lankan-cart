@@ -73,11 +73,15 @@ Deno.serve(async (req) => {
   }
 
   const body = await req.text();
-  const stripe = new Stripe(stripeSecret, { appInfo: { name: 'LankaCart' } });
+  const cryptoProvider = Stripe.createSubtleCryptoProvider();
+  const stripe = new Stripe(stripeSecret, {
+    appInfo: { name: 'LankanCart' },
+    httpClient: Stripe.createFetchHttpClient(),
+  });
 
   let event: Stripe.Event;
   try {
-    event = stripe.webhooks.constructEvent(body, signature, webhookSecret);
+    event = await stripe.webhooks.constructEventAsync(body, signature, webhookSecret, cryptoProvider);
   } catch (e) {
     const msg = e instanceof Error ? e.message : 'invalid payload';
     console.error('stripe signature', msg);
@@ -124,7 +128,7 @@ Deno.serve(async (req) => {
 
     const resendKey = Deno.env.get('RESEND_API_KEY');
     const to = Deno.env.get('ORDER_NOTIFICATION_EMAIL') ?? 'gargmaalav@gmail.com';
-    const from = Deno.env.get('RESEND_FROM_EMAIL') ?? 'LankaCart <onboarding@resend.dev>';
+    const from = Deno.env.get('RESEND_FROM_EMAIL') ?? 'LankanCart <onboarding@resend.dev>';
 
     if (resendKey) {
       const html = buildOrderEmailHtml(order as Record<string, unknown>, (items ?? []) as Record<string, unknown>[]);
@@ -137,7 +141,7 @@ Deno.serve(async (req) => {
         body: JSON.stringify({
           from,
           to: [to],
-          subject: `LankaCart — paid order ${orderId}`,
+          subject: `LankanCart — paid order ${orderId}`,
           html,
         }),
       });
