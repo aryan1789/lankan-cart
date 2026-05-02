@@ -22,6 +22,8 @@ export interface Category {
   color: string;
   bgColor: string;
   count: number;
+  parentId?: string | null;
+  isParent?: boolean;
 }
 
 export interface CartItem {

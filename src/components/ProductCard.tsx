@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Star, Plus, Minus } from 'lucide-react';
+import { Plus, Minus } from 'lucide-react';
 import type { Product } from '../types';
 import { useCart } from '../context/CartContext';
 
@@ -40,11 +40,6 @@ export default function ProductCard({ product }: Props) {
             {product.name}
           </h3>
         </Link>
-
-        <div className="flex items-center gap-1 mt-2">
-          <Star className="w-3 h-3 fill-amber-400 text-amber-400 shrink-0" />
-          <span className="text-xs text-gray-500">{product.rating} ({product.reviewCount})</span>
-        </div>
 
         <div className="flex items-center justify-between mt-3 gap-2">
           <div className="min-w-0">

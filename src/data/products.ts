@@ -92,6 +92,8 @@ const mapCategory = (row: CategoryRow, index: number): Category => {
     color: palette.color,
     bgColor: palette.bgColor,
     count: 0,
+    parentId: row.parent_ref_id ? String(row.parent_ref_id) : null,
+    isParent: row.parent_ref_id === null,
   };
 };
 
@@ -123,6 +125,23 @@ export const withCategoryCounts = (categories: Category[], products: Product[]) 
     ...category,
     count: counts.get(category.id) ?? 0,
   }));
+};
+
+export const getCategoriesWithHierarchy = (categories: Category[], products: Product[]) => {
+  const withCounts = withCategoryCounts(categories, products);
+  const parents = withCounts.filter((c) => c.isParent);
+  const childrenMap = new Map<string, Category[]>();
+
+  withCounts.forEach((c) => {
+    if (c.parentId) {
+      if (!childrenMap.has(c.parentId)) {
+        childrenMap.set(c.parentId, []);
+      }
+      childrenMap.get(c.parentId)!.push(c);
+    }
+  });
+
+  return { parents, childrenMap };
 };
 
 export const getCategories = async (): Promise<Category[]> => {
