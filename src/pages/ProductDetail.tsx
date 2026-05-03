@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Star, ShoppingCart, Plus, Minus, MapPin, Package, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ShoppingCart, Plus, Minus, MapPin, Package, ChevronRight } from 'lucide-react';
 import { getProductById, getProductsByCategory, getCategoryById } from '../data/products';
 import { useCart } from '../context/CartContext';
 import ProductCard from '../components/ProductCard';
@@ -108,15 +108,6 @@ export default function ProductDetail() {
 
             <h1 className="text-2xl font-semibold text-gray-900">{product.name}</h1>
             <p className="text-sm text-gray-500 mt-0.5">{product.unit}</p>
-
-            <div className="flex items-center gap-2 mt-2">
-              <div className="flex items-center gap-1">
-                {[1,2,3,4,5].map(s => (
-                  <Star key={s} className={`w-3.5 h-3.5 ${s <= Math.round(product.rating) ? 'fill-amber-400 text-amber-400' : 'text-gray-200 fill-gray-200'}`} />
-                ))}
-              </div>
-              <span className="text-xs text-gray-500">{product.rating} · {product.reviewCount} reviews</span>
-            </div>
 
             <div className="flex items-baseline gap-2 mt-4">
               <span className="text-3xl font-bold text-gray-900">${product.price.toFixed(2)}</span>

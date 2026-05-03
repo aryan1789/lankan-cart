@@ -105,6 +105,7 @@ const mapProduct = (row: ProductRow): Product => ({
   originalPrice: row.original_price ? Number(row.original_price) : undefined,
   image: row.image_url ?? row.image ?? '',
   category: String(row.category_external_id ?? row.category_name ?? ''),
+  categoryName: row.category_name ?? '',
   unit: row.unit ?? '',
   inStock: row.in_stock ?? (Number(row.current_stock ?? 0) > 0),
   rating: Number(row.rating ?? 4.5),
@@ -141,7 +142,13 @@ export const getCategoriesWithHierarchy = (categories: Category[], products: Pro
     }
   });
 
-  return { parents, childrenMap };
+  const parentsWithTotalCounts = parents.map((parent) => {
+    const children = childrenMap.get(parent.id) ?? [];
+    const totalCount = children.reduce((sum, child) => sum + child.count, 0);
+    return { ...parent, count: totalCount };
+  });
+
+  return { parents: parentsWithTotalCounts, childrenMap };
 };
 
 export const getCategories = async (): Promise<Category[]> => {

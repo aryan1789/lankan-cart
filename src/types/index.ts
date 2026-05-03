@@ -6,6 +6,7 @@ export interface Product {
   originalPrice?: number;
   image: string;
   category: string;
+  categoryName: string;
   unit: string;
   inStock: boolean;
   rating: number;
